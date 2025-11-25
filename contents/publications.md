@@ -1,4 +1,4 @@
-\* indicates that these authors contributed equally to this work.
+
 #### Conference
 
 - Fu Teng\*, **Miao Pan**\*, Xuhong Zhang, Zhezhi He, Yiyao Yang, Xinyi Chai, Mengnan Qi, Liqiang Lu, and Jianwei Yin. "VERIRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning." (ICCAD 2025) [[Paper]](https://arxiv.org/pdf/2508.18462) [[Code]](https://github.com/omniAI-Lab/VeriRL)
