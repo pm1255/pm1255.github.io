@@ -9,4 +9,4 @@
 
 - <strong>Pan, Miao</strong>*, Wangjie Gan*, Jintao Chen, Wenqi Zhang, Bing Sun, Jianwei Yin, and Xuhong Zhang. "Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization." (AAAI 2026)
 
-- Li, Qinfeng, Miao Pan, Jintao Chen, Fu Teng, Zhiqiang Shen, Ge Su, Hao Peng, and Xuhong Zhang. "Do Not Merge My Model! Safeguarding Open-Source LLMs Against Unauthorized Model Merging." (AAAI 2026) [[Paper]](https://arxiv.org/pdf/2511.10712)
+- Li, Qinfeng*, <strong>Pan, Miao</strong>*, Jintao Chen, Fu Teng, Zhiqiang Shen, Ge Su, Hao Peng, and Xuhong Zhang. "Do Not Merge My Model! Safeguarding Open-Source LLMs Against Unauthorized Model Merging." (AAAI 2026) [[Paper]](https://arxiv.org/pdf/2511.10712)
