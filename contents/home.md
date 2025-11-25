@@ -1,16 +1,16 @@
 
 
-[![senli1073](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/senli1073)
+[![miaopan1255](https://img.shields.io/badge/senli1073-github-blue?logo=github)](https://github.com/pm1255)
 
 He is currently a Fellow in the Department of Earth and Planetary Sciences (EPS) at Harvard University.
 
 #### Contact
 
-Email: senli[at]fas.harvard.edu
+Email: 22351015[at]zju.edu.cn
 
 #### Education
-M.E., Computer Science and Technology, China University of Mining and Technology, 2022—2025.\
-B.E., Data Science and Big Data Technology, China University of Mining and Technology, 2018—2022.
+Phd, Computer Science and Technology, Zhejiang University, 20223—2028.\
+B.E., Data Science and Big Data Technology, Zhejiang Gongshang University, 2019—2023.
 
 #### Research Interests
 Deep Learning, Artificial Intelligence Seismology, Mine Microseismic.
