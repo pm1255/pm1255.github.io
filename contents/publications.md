@@ -5,6 +5,6 @@
 
 - Qinfeng Li\*, **Miao Pan**\*, Ke Xiong\*, Ge Su, Zhiqiang Shen, Yan Liu, Bing Sun, Hao Peng, and Xuhong Zhang. "RAGFort: Dual-Path Defense Against Proprietary Knowledge Base Extraction in Retrieval-Augmented Generation." (AAAI 2026) [[Paper]](https://arxiv.org/pdf/2511.10128) [[Code]](https://github.com/happywinder/RAGFort)
 
-- **Miao Pan**\*, Wangjie Gan\*, Jintao Chen, Wenqi Zhang, Bing Sun, Jianwei Yin, and Xuhong Zhang. "Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization." (AAAI 2026)
-
 - Qinfeng Li\*, **Miao Pan**\*, Jintao Chen, Fu Teng, Zhiqiang Shen, Ge Su, Hao Peng, and Xuhong Zhang. "Do Not Merge My Model! Safeguarding Open-Source LLMs Against Unauthorized Model Merging." (AAAI 2026) [[Paper]](https://arxiv.org/pdf/2511.10712)
+
+- **Miao Pan**\*, Wangjie Gan\*, Jintao Chen, Wenqi Zhang, Bing Sun, Jianwei Yin, and Xuhong Zhang. "Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization." (AAAI 2026)
