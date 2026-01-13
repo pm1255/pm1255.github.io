@@ -7,7 +7,7 @@
 
 - Qinfeng Li\*, **Miao Pan**\*, Jintao Chen, Fu Teng, Zhiqiang Shen, Ge Su, Hao Peng, and Xuhong Zhang. "Do Not Merge My Model! Safeguarding Open-Source LLMs Against Unauthorized Model Merging." (AAAI 2026) [[Paper]](https://arxiv.org/pdf/2511.10712)
 
-- **Miao Pan**\*, Wangjie Gan\*, Jintao Chen, Wenqi Zhang, Bing Sun, Jianwei Yin, and Xuhong Zhang. "Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization." (AAAI 2026) [[Code]](https://github.com/omniAI-Lab/Ground-What-You-See)
+- **Miao Pan**\*, Wangjie Gan\*, Jintao Chen, Wenqi Zhang, Bing Sun, Jianwei Yin, and Xuhong Zhang. "Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization." (AAAI 2026) [[Paper]](https://arxiv.org/abs/2601.06224) [[Code]](https://github.com/omniAI-Lab/Ground-What-You-See)
 
 - **Miao Pan**, Haoyue Tang, Jiayu Pan, Tie Qiu, and Jianwei Yin. "Regret-Optimal and Stability-Enhanced Online Sampling of the Wiener Process for Remote Estimation over an Unreliable Channel with Unknown Statistics." (INFOCOM 2026)
 
