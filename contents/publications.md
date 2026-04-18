@@ -13,4 +13,4 @@
 
 - **Miao Pan**, Jiayu Pan, Rui Chai, Xuhong Zhang, and Jianwei Yin. "Sampling the Ornstein Uhlenbeck Process for Remote Estimation over an Unreliable Channel." (INFOCOM 2026)
 
-- Wangjie Gan\*, **Miao Pan**\∗, Linbo Xi\∗, Wenqi Zhang, Jintao Chen, Jianwei Yin, Xuhong Zhang. "GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification." (ACL Finding 2026) [[Paper]](https://arxiv.org/pdf/2604.14258) [[Code]](https://arxiv.org/pdf/2604.14258)
+- Wangjie Gan\*, **Miao Pan**\*, Linbo Xi\*, Wenqi Zhang, Jintao Chen, Jianwei Yin, Xuhong Zhang. "GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification." (ACL Finding 2026) [[Paper]](https://arxiv.org/pdf/2604.14258) [[Code]](https://arxiv.org/pdf/2604.14258)
