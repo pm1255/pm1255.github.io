@@ -9,8 +9,8 @@
 
 - **Miao Pan**\*, Wangjie Gan\*, Jintao Chen, Wenqi Zhang, Bing Sun, Jianwei Yin, and Xuhong Zhang. "Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization." (AAAI 2026) [[Paper]](https://arxiv.org/abs/2601.06224) [[Code]](https://github.com/omniAI-Lab/Ground-What-You-See)
 
-- **Miao Pan**, Haoyue Tang, Jiayu Pan, Tie Qiu, and Jianwei Yin. "Regret-Optimal and Stability-Enhanced Online Sampling of the Wiener Process for Remote Estimation over an Unreliable Channel with Unknown Statistics." (INFOCOM 2026)
+- **Miao Pan**, Haoyue Tang, Jiayu Pan, Tie Qiu, and Jianwei Yin. "Regret-Optimal and Stability-Enhanced Online Sampling of the Wiener Process for Remote Estimation over an Unreliable Channel with Unknown Statistics." (INFOCOM 2026) [[Paper]](https://www.researchgate.net/publication/408227931_Regret-Optimal_and_Stability-Enhanced_Online_Sampling_of_the_Wiener_Process_for_Remote_Estimation_over_an_Unreliable_Channel_with_Unknown_Statistics)
 
-- **Miao Pan**, Jiayu Pan, Rui Chai, Xuhong Zhang, and Jianwei Yin. "Sampling the Ornstein Uhlenbeck Process for Remote Estimation over an Unreliable Channel." (INFOCOM 2026)
+- **Miao Pan**, Jiayu Pan, Rui Chai, Xuhong Zhang, and Jianwei Yin. "Sampling the Ornstein Uhlenbeck Process for Remote Estimation over an Unreliable Channel." (INFOCOM 2026) [[Paper]](https://www.researchgate.net/publication/408235259_Sampling_the_Ornstein_Uhlenbeck_Process_for_Remote_Estimation_over_an_Unreliable_Channel)
 
 - Wangjie Gan\*, **Miao Pan**\*, Linbo Xi\*, Wenqi Zhang, Jintao Chen, Jianwei Yin, Xuhong Zhang. "GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification." (ACL Finding 2026) [[Paper]](https://arxiv.org/pdf/2604.14258) [[Code]](https://arxiv.org/pdf/2604.14258)
