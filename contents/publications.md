@@ -1,6 +1,10 @@
 
 #### Conference
 
+- Yi Pan, **Miao Pan**, Qi Lu, Jiaming Huang, Man Zhang, Siteng Huang, Xin Li, Jie Zhang, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang. "VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon." (arXiv 2026) [[Paper]](https://arxiv.org/abs/2607.01804) [[Code]](https://github.com/ZJU-OmniAI/vla-corrector)
+
+- Yingxuan Zhuang, Jingxiao Yang, **Miao Pan**, Cheng Tan, Yuxiang Cai, Siwei Tan, Chen Zhi, Xuhong Zhang, Jianwei Yin, and Jintao Chen. "Mitigating Manifold Departure: Uncertainty-Aware Subspace Rectification for Trustworthy MLLM Decoding." (arXiv 2026) [[Paper]](https://arxiv.org/abs/2606.09859)
+
 - Fu Teng\*, **Miao Pan**\*, Xuhong Zhang, Zhezhi He, Yiyao Yang, Xinyi Chai, Mengnan Qi, Liqiang Lu, and Jianwei Yin. "VERIRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning." (ICCAD 2025) [[Paper]](https://arxiv.org/pdf/2508.18462) [[Code]](https://github.com/omniAI-Lab/VeriRL)
 
 - Qinfeng Li\*, **Miao Pan**\*, Ke Xiong\*, Ge Su, Zhiqiang Shen, Yan Liu, Bing Sun, Hao Peng, and Xuhong Zhang. "RAGFort: Dual-Path Defense Against Proprietary Knowledge Base Extraction in Retrieval-Augmented Generation." (AAAI 2026) [[Paper]](https://arxiv.org/pdf/2511.10128) [[Code]](https://github.com/happywinder/RAGFort)
