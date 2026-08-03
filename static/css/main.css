@@ -4,7 +4,7 @@
     --page-brand: #174675;
     --page-brand-dark: #0b2d50;
     --page-accent: #008a84;
-    --page-author: #c52f5b;
+    --page-author: #1769d2;
     --page-marker: #aa5c00;
     --page-line: #d4dde4;
     --page-soft: #f1f5f6;
@@ -40,27 +40,6 @@ a:focus {
     padding-bottom: 0.65rem;
 }
 
-#mainNav .navbar-brand {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.65rem;
-    color: var(--page-ink);
-    font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-weight: 700;
-    letter-spacing: 0;
-}
-
-.brand-crest {
-    width: 2.6rem;
-    height: 2.6rem;
-    object-fit: contain;
-}
-
-#mainNav .navbar-brand:hover,
-#mainNav .navbar-brand:focus {
-    color: var(--page-brand);
-}
-
 #mainNav .navbar-nav .nav-item .nav-link {
     position: relative;
     color: var(--page-ink);
@@ -78,6 +57,7 @@ a:focus {
 #mainNav .navbar-toggler {
     width: 2.75rem;
     height: 2.75rem;
+    margin-left: auto;
     padding: 0;
     color: var(--page-ink);
     border-color: var(--page-line);
@@ -95,14 +75,11 @@ a:focus {
 
 .top-section {
     position: relative;
-    display: flex;
-    align-items: center;
-    height: 30rem;
+    height: 26rem;
     padding: 0;
     overflow: hidden;
-    border-bottom: 5px solid var(--page-accent);
-    background-color: var(--page-brand-dark);
-    background-position: center;
+    background-color: #dce8ea;
+    background-position: center 52%;
     background-size: cover;
 }
 
@@ -110,46 +87,7 @@ a:focus {
     position: absolute;
     inset: 0;
     content: "";
-    background: rgba(7, 22, 39, 0.68);
-}
-
-.top-section .top-section-content {
-    position: relative;
-    z-index: 1;
-    width: 100%;
-}
-
-.top-section-content .container {
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
-    border-left: 4px solid #36c4b5;
-}
-
-.top-section h1 {
-    max-width: 46rem;
-    margin: 0;
-    font-size: 4.75rem;
-    font-weight: 500;
-    letter-spacing: 0;
-    text-wrap: balance;
-}
-
-.hero-kicker {
-    margin: 0 0 0.8rem;
-    color: rgba(255, 255, 255, 0.84);
-    font-size: 1.05rem;
-    font-weight: 700;
-    letter-spacing: 0;
-}
-
-.hero-focus {
-    max-width: 48rem;
-    margin: 1.15rem 0 0;
-    color: rgba(255, 255, 255, 0.92);
-    font-size: 1.16rem;
-    font-weight: 600;
-    line-height: 1.55;
-    letter-spacing: 0;
+    background: rgba(10, 35, 47, 0.08);
 }
 
 #avatar {
@@ -191,7 +129,6 @@ a:focus {
 }
 
 .content-section > .container,
-.top-section .container,
 #mainNav > .container,
 footer > .container,
 body > .container {
@@ -226,7 +163,7 @@ section header h2 .bi {
 
 section .main-body {
     color: var(--page-ink);
-    font-size: 1.14rem;
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.82;
 }
@@ -240,7 +177,7 @@ section .main-body {
     margin-bottom: 0.45rem;
     color: var(--page-ink);
     font-family: "Mulish", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-    font-size: 1.18rem;
+    font-size: 1.24rem;
     font-weight: 700;
     letter-spacing: 0;
 }
@@ -292,7 +229,7 @@ section .main-body {
 #preprints-md li > strong:first-child,
 #preprints-md li > p > strong:first-child {
     color: var(--page-ink);
-    font-size: 1.2rem;
+    font-size: 1.28rem;
     font-weight: 700;
     line-height: 1.5;
 }
@@ -300,7 +237,7 @@ section .main-body {
 #publications-md li em,
 #preprints-md li em {
     color: var(--page-accent);
-    font-size: 1rem;
+    font-size: 1.06rem;
     font-style: normal;
     font-weight: 700;
 }
@@ -309,7 +246,7 @@ section .main-body {
 #preprints-md li a {
     display: inline-block;
     margin-left: 0.15rem;
-    font-size: 1rem;
+    font-size: 1.06rem;
     font-weight: 700;
     text-decoration: none;
     border-bottom: 1px solid currentColor;
@@ -389,7 +326,6 @@ footer a:focus {
 
 @media (max-width: 767px) {
     #mainNav > .container,
-    .top-section .container,
     body > .container,
     .content-section > .container,
     footer > .container {
@@ -397,28 +333,9 @@ footer a:focus {
         padding-left: 1.25rem !important;
     }
 
-    .top-section-content .container {
-        border-left: 0;
-    }
-
     .top-section {
-        height: 23rem;
-        background-position: 53% center;
-    }
-
-    .top-section h1 {
-        font-size: 3.25rem;
-    }
-
-    .hero-kicker {
-        max-width: 20rem;
-        font-size: 0.94rem;
-    }
-
-    .hero-focus {
-        max-width: 23rem;
-        margin-top: 0.9rem;
-        font-size: 1rem;
+        height: 20rem;
+        background-position: center 48%;
     }
 
     #avatar,
@@ -446,7 +363,7 @@ footer a:focus {
     }
 
     section .main-body {
-        font-size: 1.07rem;
+        font-size: 1.12rem;
         line-height: 1.76;
     }
 
@@ -459,7 +376,7 @@ footer a:focus {
     #publications-md li > p > strong:first-child,
     #preprints-md li > strong:first-child,
     #preprints-md li > p > strong:first-child {
-        font-size: 1.12rem;
+        font-size: 1.18rem;
     }
 
     #publications-md li::before,
