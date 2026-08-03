@@ -65,8 +65,7 @@
             }
         };
     </script>
-    <script type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
-    <script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script type="text/javascript" id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     
     <!-- Core JS-->
     <script type="text/javascript" src="static/js/scripts.js"></script>
@@ -82,8 +81,8 @@
             <!-- <a href="#page-top"><img src="static/assets/img/CUMT_LOGO.svg" style="width: 11rem;"></a> -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                MENU
-                <i class="bi-list"></i>
+                <i class="bi bi-list" aria-hidden="true"></i>
+                <span class="visually-hidden">Toggle navigation</span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
@@ -92,6 +91,9 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#preprints">PREPRINTS</a>
                     </li>
                 </ul>
             </div>
@@ -102,7 +104,8 @@
     <section class="top-section" style="background-image: url('static/assets/img/background.jpg');">
         <div class="top-section-content">
             <div class="container px-5">
-                <h2 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h2>
+                <p class="hero-kicker">Ph.D. Student · Software Engineering</p>
+                <h1 id="top-section-bg-text" class="text-white display-3 lh-1 font-alt"></h1>
             </div>
         </div>
     </section>
@@ -111,13 +114,13 @@
     <!-- Photo -->
     <div class="container px-5">
         <div id="avatar">
-            <img class="shadow" src="static/assets/img/photo.jpg">
+            <img src="static/assets/img/photo.jpg" alt="Miao Pan">
         </div>
     </div>
     <!-- Photo -->
     
     <!-- Home -->
-    <section class="bg-gradient-primary-to-secondary-light mt5 md5" id="home">
+    <section class="content-section section-light" id="home">
         <div class="container px-5">
             <header>
                 <h2 id="home-subtitle"> </h2>
@@ -129,16 +132,27 @@
     <!-- Home -->
 
     <!-- Publications -->
-    <section class="bg-gradient-primary-to-secondary-gray mt5 md5" id="publications">
+    <section class="content-section section-muted" id="publications">
         <div class="container px-5">
             <header>
-                <h2 id="publications-subtitle"><i class="bi bi-file-text-fill"></i>&nbsp;PUBLICATIONS</h2>
+                <h2 id="publications-subtitle"><i class="bi bi-journal-text" aria-hidden="true"></i><span>PUBLICATIONS</span></h2>
             </header>
             <div class="main-body" id="publications-md"></div>
 
         </div>
     </section>
     <!-- Publications  -->
+
+    <!-- Preprints -->
+    <section class="content-section section-light" id="preprints">
+        <div class="container px-5">
+            <header>
+                <h2 id="preprints-subtitle"><i class="bi bi-file-earmark-text" aria-hidden="true"></i><span>PREPRINTS</span></h2>
+            </header>
+            <div class="main-body" id="preprints-md"></div>
+        </div>
+    </section>
+    <!-- Preprints -->
 
     <!-- Footer-->
     <footer class="bg-bottom text-center py-5">

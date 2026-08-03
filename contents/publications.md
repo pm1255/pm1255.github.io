@@ -1,42 +1,31 @@
+- **Mitigating Manifold Departure: Uncertainty-Aware Subspace Rectification for Trustworthy MLLM Decoding.**<br>
+  Yingxuan Zhuang, Jingxiao Yang, **Miao Pan**, Cheng Tan, Yuxiang Cai, Siwei Tan, Chen Zhi, Xuhong Zhang, Jianwei Yin, and Jintao Chen.<br>
+  *ICML 2026.* [[Paper]](https://arxiv.org/abs/2606.09859)
 
-#### Conference
+- **VERIRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning.**<br>
+  Fu Teng\*, **Miao Pan**\*, Xuhong Zhang, Zhezhi He, Yiyao Yang, Xinyi Chai, Mengnan Qi, Liqiang Lu, and Jianwei Yin.<br>
+  *ICCAD 2025.* [[Paper]](https://arxiv.org/pdf/2508.18462) [[Code]](https://github.com/omniAI-Lab/VeriRL)
 
-- Yingxuan Zhuang, Jingxiao Yang, **Miao Pan**, Cheng Tan, Yuxiang Cai, Siwei Tan, Chen Zhi, Xuhong Zhang, Jianwei Yin, and Jintao Chen. "Mitigating Manifold Departure: Uncertainty-Aware Subspace Rectification for Trustworthy MLLM Decoding." (ICML 2026) [[Paper]](https://arxiv.org/abs/2606.09859)
+- **RAGFort: Dual-Path Defense Against Proprietary Knowledge Base Extraction in Retrieval-Augmented Generation.**<br>
+  Qinfeng Li\*, **Miao Pan**\*, Ke Xiong\*, Ge Su, Zhiqiang Shen, Yan Liu, Bing Sun, Hao Peng, and Xuhong Zhang.<br>
+  *AAAI 2026.* [[Paper]](https://arxiv.org/pdf/2511.10128) [[Code]](https://github.com/happywinder/RAGFort)
 
-- Fu Teng\*, **Miao Pan**\*, Xuhong Zhang, Zhezhi He, Yiyao Yang, Xinyi Chai, Mengnan Qi, Liqiang Lu, and Jianwei Yin. "VERIRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning." (ICCAD 2025) [[Paper]](https://arxiv.org/pdf/2508.18462) [[Code]](https://github.com/omniAI-Lab/VeriRL)
+- **Do Not Merge My Model! Safeguarding Open-Source LLMs Against Unauthorized Model Merging.**<br>
+  Qinfeng Li\*, **Miao Pan**\*, Jintao Chen, Fu Teng, Zhiqiang Shen, Ge Su, Hao Peng, and Xuhong Zhang.<br>
+  *AAAI 2026.* [[Paper]](https://arxiv.org/pdf/2511.10712)
 
-- Qinfeng Li\*, **Miao Pan**\*, Ke Xiong\*, Ge Su, Zhiqiang Shen, Yan Liu, Bing Sun, Hao Peng, and Xuhong Zhang. "RAGFort: Dual-Path Defense Against Proprietary Knowledge Base Extraction in Retrieval-Augmented Generation." (AAAI 2026) [[Paper]](https://arxiv.org/pdf/2511.10128) [[Code]](https://github.com/happywinder/RAGFort)
+- **Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization.**<br>
+  **Miao Pan**\*, Wangjie Gan\*, Jintao Chen, Wenqi Zhang, Bing Sun, Jianwei Yin, and Xuhong Zhang.<br>
+  *AAAI 2026.* [[Paper]](https://arxiv.org/abs/2601.06224) [[Code]](https://github.com/omniAI-Lab/Ground-What-You-See)
 
-- Qinfeng Li\*, **Miao Pan**\*, Jintao Chen, Fu Teng, Zhiqiang Shen, Ge Su, Hao Peng, and Xuhong Zhang. "Do Not Merge My Model! Safeguarding Open-Source LLMs Against Unauthorized Model Merging." (AAAI 2026) [[Paper]](https://arxiv.org/pdf/2511.10712)
+- **Regret-Optimal and Stability-Enhanced Online Sampling of the Wiener Process for Remote Estimation over an Unreliable Channel with Unknown Statistics.**<br>
+  **Miao Pan**, Haoyue Tang, Jiayu Pan, Tie Qiu, and Jianwei Yin.<br>
+  *INFOCOM 2026.* [[Paper]](https://www.researchgate.net/publication/408227931_Regret-Optimal_and_Stability-Enhanced_Online_Sampling_of_the_Wiener_Process_for_Remote_Estimation_over_an_Unreliable_Channel_with_Unknown_Statistics)
 
-- **Miao Pan**\*, Wangjie Gan\*, Jintao Chen, Wenqi Zhang, Bing Sun, Jianwei Yin, and Xuhong Zhang. "Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization." (AAAI 2026) [[Paper]](https://arxiv.org/abs/2601.06224) [[Code]](https://github.com/omniAI-Lab/Ground-What-You-See)
+- **Sampling the Ornstein Uhlenbeck Process for Remote Estimation over an Unreliable Channel.**<br>
+  **Miao Pan**, Jiayu Pan, Rui Chai, Xuhong Zhang, and Jianwei Yin.<br>
+  *INFOCOM 2026.* [[Paper]](https://www.researchgate.net/publication/408235259_Sampling_the_Ornstein_Uhlenbeck_Process_for_Remote_Estimation_over_an_Unreliable_Channel)
 
-- **Miao Pan**, Haoyue Tang, Jiayu Pan, Tie Qiu, and Jianwei Yin. "Regret-Optimal and Stability-Enhanced Online Sampling of the Wiener Process for Remote Estimation over an Unreliable Channel with Unknown Statistics." (INFOCOM 2026) [[Paper]](https://www.researchgate.net/publication/408227931_Regret-Optimal_and_Stability-Enhanced_Online_Sampling_of_the_Wiener_Process_for_Remote_Estimation_over_an_Unreliable_Channel_with_Unknown_Statistics)
-
-- **Miao Pan**, Jiayu Pan, Rui Chai, Xuhong Zhang, and Jianwei Yin. "Sampling the Ornstein Uhlenbeck Process for Remote Estimation over an Unreliable Channel." (INFOCOM 2026) [[Paper]](https://www.researchgate.net/publication/408235259_Sampling_the_Ornstein_Uhlenbeck_Process_for_Remote_Estimation_over_an_Unreliable_Channel)
-
-- Wangjie Gan\*, **Miao Pan**\*, Linbo Xi\*, Wenqi Zhang, Jintao Chen, Jianwei Yin, Xuhong Zhang. "GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification." (ACL Finding 2026) [[Paper]](https://arxiv.org/pdf/2604.14258) [[Code]](https://arxiv.org/pdf/2604.14258)
-
-#### Preprint
-
-- Yi Pan, **Miao Pan**, Qi Lu, Jiaming Huang, Man Zhang, Siteng Huang, Xin Li, Jie Zhang, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang. "VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon." (Under Review) [[Paper]](https://arxiv.org/abs/2607.01804) [[Code]](https://github.com/ZJU-OmniAI/vla-corrector)
-
-- Jingxiao Yang\*, DaLin He\*, **Miao Pan**, Kaixiang Yao, Ge Su, Wenqi Zhang, Yifeng Hu, Tangwei Li, Yuke Li, and Xuhong Zhang. "SARE: Sample-wise Adaptive Reasoning for Training-free Fine-grained Visual Recognition." (Preprint 2026) [[Paper]](https://arxiv.org/abs/2603.17729)
-
-- OmniAI Lab (lead author: **Miao Pan**). "C3-EmbodiedClaw: Causal Failure Diagnosis, Instruction Alignment, and Closed-Loop Action Correction for Embodied Agents." (Technical Report 2026)
-
-- Authors anonymized for review (including **Miao Pan**). "Rubrics4VLA: Shaping Safer and More Reliable VLA Trajectory with Evolving Rubrics." (Under Review)
-
-- Authors anonymized for review (including **Miao Pan**). "EmbodiedMemory-Bench: Benchmarking Embodied Memory for Long-Horizon Embodied Tasks." (Under Review)
-
-- Authors anonymized for review (including **Miao Pan**). "Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation." (Under Review)
-
-- Authors anonymized for review (**Miao Pan** is a co-first author). "Stabilizing RL Fine-Tuning of Diffusion VLAs with Sparse MoE Action Heads: Advantage- and Noise-Aware Load Balancing and Geometric-Mean Ratio." (Under Review)
-
-- Authors anonymized for review (including **Miao Pan**). "DEEPO: Dual-Entropy Enhanced Policy Optimization for Hallucination in MLLMs." (Under Review)
-
-- Authors anonymized for review (including **Miao Pan**). "Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World." (Under Review)
-
-- Authors anonymized for review (including **Miao Pan**). "PADO: Perception-Aware Distillation-Guided Policy Optimization for Multimodal Reasoning." (Under Review)
-
-- **Miao Pan**\*, Han Xu\*, Jiayu Pan, Songwei Zhang, and Tie Qiu. "A Scalable and Convergent Fractional Reinforcement Learning Framework for AoI-Optimal Decision Making in Edge Systems." (Preprint 2026)
+- **GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification.**<br>
+  Wangjie Gan\*, **Miao Pan**\*, Linbo Xi\*, Wenqi Zhang, Jintao Chen, Jianwei Yin, and Xuhong Zhang.<br>
+  *ACL Findings 2026.* [[Paper]](https://arxiv.org/pdf/2604.14258) [[Code]](https://arxiv.org/pdf/2604.14258)
