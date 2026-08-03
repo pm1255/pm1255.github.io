@@ -94,17 +94,18 @@ a:focus {
     position: relative;
     z-index: 2;
     float: right;
-    width: 12.5rem;
+    width: 10.5rem;
     height: 0;
-    top: -6.25rem;
+    top: -7rem;
     margin-right: 1.5rem;
 }
 
 #avatar img {
     display: block;
-    width: 12.5rem;
-    height: 12.5rem;
+    width: 10.5rem;
+    height: 14rem;
     object-fit: cover;
+    object-position: center top;
     border: 5px solid var(--page-white);
     border-radius: 8px;
     box-shadow: 0 1.1rem 2.6rem rgba(16, 24, 40, 0.26);
@@ -117,7 +118,7 @@ a:focus {
 }
 
 #home {
-    padding-top: 6.4rem;
+    padding-top: 7.8rem;
 }
 
 .section-light {
@@ -158,7 +159,7 @@ section header h2 .bi {
     max-width: 44rem;
     margin-bottom: 1.25rem;
     color: var(--page-brand);
-    font-size: 2.35rem;
+    font-size: 2.6rem;
 }
 
 section .main-body {
@@ -170,6 +171,12 @@ section .main-body {
 
 #home-md {
     max-width: 58rem;
+    font-size: 1.34rem;
+    line-height: 1.78;
+}
+
+#home-md h4 {
+    font-size: 1.46rem;
 }
 
 .main-body h4 {
@@ -338,18 +345,18 @@ footer a:focus {
         background-position: center 48%;
     }
 
-    #avatar,
-    #avatar img {
-        width: 8.75rem;
-        height: 8.75rem;
+    #avatar {
+        width: 8rem;
+        top: -5.25rem;
     }
 
-    #avatar {
-        top: -4.4rem;
+    #avatar img {
+        width: 8rem;
+        height: 10.5rem;
     }
 
     #home {
-        padding-top: 5.4rem;
+        padding-top: 6.35rem;
     }
 
     .content-section {
@@ -357,14 +364,26 @@ footer a:focus {
         padding-bottom: 3.5rem;
     }
 
-    section header h2,
-    #home-subtitle {
+    section header h2 {
         font-size: 1.75rem;
+    }
+
+    #home-subtitle {
+        font-size: 1.95rem;
     }
 
     section .main-body {
         font-size: 1.12rem;
         line-height: 1.76;
+    }
+
+    #home-md {
+        font-size: 1.22rem;
+        line-height: 1.74;
+    }
+
+    #home-md h4 {
+        font-size: 1.32rem;
     }
 
     #publications-md li,
