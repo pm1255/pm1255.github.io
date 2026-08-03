@@ -19,12 +19,16 @@
   *Under Review.*
 
 - **Stabilizing RL Fine-Tuning of Diffusion VLAs with Sparse MoE Action Heads: Advantage- and Noise-Aware Load Balancing and Geometric-Mean Ratio.**<br>
-  <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, et al.<br>
+  Jiarun Li<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Qiuting Yu, Yangfan Xie, Wenqi Zhang, Zicheng Liu, Jintao Chen, and Xuhong Zhang.<br>
   *Under Review.*
 
 - **Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World.**<br>
   Kaixiang Yao, Xu Wang, <strong class="self-author">Miao Pan</strong>, Hu Xiyue, Weishi Wang, Daniel Dahlmeier, Jintao Chen, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang.<br>
   *Under Review.*
+
+- **Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text.**<br>
+  Xu Wang<sup aria-label="equal contribution">&#42;</sup>, Kaixiang Yao<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong>, Xiaohe Zhou, Xuanyu Liu, Wenqi Zhang, and Xuhong Zhang.<br>
+  *Under Review.* [[Paper]](https://arxiv.org/abs/2607.21072) [[Code]](https://github.com/ZJU-OmniAI/ProVisE)
 
 - **A Scalable and Convergent Fractional Reinforcement Learning Framework for AoI-Optimal Decision Making in Edge Systems.**<br>
   <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Han Xu<sup aria-label="equal contribution">&#42;</sup>, Jiayu Pan, Songwei Zhang, and Tie Qiu.<br>
