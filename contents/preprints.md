@@ -1,6 +1,10 @@
+- **Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation.**<br>
+  Hongyan Feng, Sunlai Chen, Xuanyu Liu, <strong class="self-author">Miao Pan</strong>, Yangfan Xie, Yuxiang Cui, Zhongxiang Zhou, Rong Xiong, Wenqi Zhang, Jianwei Yin, Yueting Zhuang, and Xuhong Zhang.<br>
+  *Under Review.* [[Paper]](https://arxiv.org/pdf/2608.17512) [[Project]](https://zju-omniai.github.io/Embodied-Navigator/) [[Model]](https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO) [[Code]](https://github.com/ZJU-OmniAI/Embodied-Navigator)
+
 - **VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon.**<br>
   Yi Pan, <strong class="self-author">Miao Pan</strong>, Qi Lu, Jiaming Huang, Man Zhang, Siteng Huang, Xin Li, Jie Zhang, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang.<br>
-  *Under Review.* [[Paper]](https://arxiv.org/abs/2607.01804) [[Code]](https://github.com/ZJU-OmniAI/vla-corrector)
+  *Under Review.* [[Paper]](https://arxiv.org/abs/2607.01804) [[Project]](https://zju-omniai.github.io/vla-corrector/) [[Code]](https://github.com/ZJU-OmniAI/vla-corrector)
 
 - **SARE: Sample-wise Adaptive Reasoning for Fine-grained Visual Recognition.**<br>
   Jingxiao Yang<sup aria-label="equal contribution">&#42;</sup>, DaLin He<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong>, Ge Su, Yifeng Hu, Tangwei Li, Yuke Li, Wenqi Zhang, and Xuhong Zhang.<br>
