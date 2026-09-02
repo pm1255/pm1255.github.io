@@ -7,6 +7,8 @@ const language_copy = {
     en: {
         'toggle-navigation': 'Toggle navigation',
         'language-switcher': 'Language',
+        'language-en': 'English',
+        'language-zh': 'Chinese',
         'hero-label': 'Anime twilight sky and tree',
         'avatar-alt': 'Portrait of Miao Pan',
         'nav-home': 'HOME',
@@ -18,6 +20,7 @@ const language_copy = {
         'section-awards': 'AWARDS',
         'license': 'License',
         description: 'Academic webpage of Miao Pan',
+        paper_count_label: count => `${count} ${count === 1 ? 'paper' : 'papers'}`,
         directions: {
             'Computer Networks': 'Computer Networks',
             'Trustworthy AI & Security': 'Trustworthy AI & Security',
@@ -28,6 +31,8 @@ const language_copy = {
     zh: {
         'toggle-navigation': '切换导航',
         'language-switcher': '语言',
+        'language-en': '英文',
+        'language-zh': '中文',
         'hero-label': '动漫风格的暮色天空与树木',
         'avatar-alt': '潘淼的个人照片',
         'nav-home': '首页',
@@ -39,6 +44,7 @@ const language_copy = {
         'section-awards': '奖项',
         'license': '许可证',
         description: '潘淼的学术主页',
+        paper_count_label: count => `${count} 篇论文`,
         directions: {
             'Computer Networks': '计算机网络',
             'Trustworthy AI & Security': '可信人工智能与安全',
@@ -46,6 +52,13 @@ const language_copy = {
             'Embodied Intelligence': '具身智能',
         },
     },
+}
+
+const direction_icons = {
+    'Computer Networks': 'bi-diagram-3',
+    'Trustworthy AI & Security': 'bi-shield-check',
+    'Multimodal Agents & RL': 'bi-cpu',
+    'Embodied Intelligence': 'bi-gear',
 }
 
 let render_sequence = 0
@@ -117,13 +130,57 @@ function apply_config(config) {
     })
 }
 
-function translate_direction_headings(language) {
-    const directions = language_copy[language].directions
-    document.querySelectorAll('#publications-md h4, #preprints-md h4').forEach(heading => {
-        const translated_heading = directions[heading.textContent.trim()]
-        if (translated_heading) {
-            heading.textContent = translated_heading
+function setup_category_toggles(language) {
+    const copy = language_copy[language]
+    document.querySelectorAll('#publications-md h4, #preprints-md h4').forEach((heading, index) => {
+        const direction = heading.textContent.trim()
+        const paper_list = heading.nextElementSibling
+        const translated_heading = copy.directions[direction]
+
+        if (!translated_heading || !paper_list || paper_list.tagName !== 'UL') {
+            return
         }
+
+        const paper_count = paper_list.children.length
+        const list_id = `${heading.parentElement.id}-category-${index}`
+        const button = document.createElement('button')
+        button.className = 'paper-category-toggle'
+        button.type = 'button'
+        button.setAttribute('aria-expanded', 'true')
+        button.setAttribute('aria-controls', list_id)
+        button.setAttribute('aria-label', `${translated_heading}, ${copy.paper_count_label(paper_count)}`)
+
+        const icon_wrap = document.createElement('span')
+        icon_wrap.className = 'paper-category-icon'
+        icon_wrap.setAttribute('aria-hidden', 'true')
+        const icon = document.createElement('i')
+        icon.className = `bi ${direction_icons[direction]}`
+        icon_wrap.appendChild(icon)
+
+        const label = document.createElement('span')
+        label.className = 'paper-category-label'
+        label.textContent = translated_heading
+
+        const count = document.createElement('span')
+        count.className = 'paper-category-count'
+        count.setAttribute('aria-hidden', 'true')
+        count.textContent = paper_count
+
+        const chevron = document.createElement('i')
+        chevron.className = 'bi bi-chevron-down paper-category-chevron'
+        chevron.setAttribute('aria-hidden', 'true')
+
+        button.append(icon_wrap, label, count, chevron)
+        heading.className = 'paper-category-heading'
+        heading.replaceChildren(button)
+        paper_list.id = list_id
+        paper_list.classList.add('paper-category-list')
+
+        button.addEventListener('click', () => {
+            const is_expanded = button.getAttribute('aria-expanded') === 'true'
+            button.setAttribute('aria-expanded', (!is_expanded).toString())
+            paper_list.hidden = is_expanded
+        })
     })
 }
 
@@ -145,7 +202,7 @@ async function render_language(language) {
     section_names.forEach((section_name, index) => {
         document.getElementById(section_name + '-md').innerHTML = marked.parse(file_contents[index + 1])
     })
-    translate_direction_headings(language)
+    setup_category_toggles(language)
 
     if (window.MathJax && typeof window.MathJax.typesetPromise === 'function') {
         await window.MathJax.typesetPromise()

@@ -8,4 +8,6 @@ Miao Pan is a Ph.D. student in Software Engineering at Zhejiang University (2023
 
 Email: 22351015@zju.edu.cn
 
-[Google Scholar](https://scholar.google.com/citations?user=NDzhBaUAAAAJ)
+#### Google Scholar
+
+[https://scholar.google.com/citations?user=NDzhBaUAAAAJ](https://scholar.google.com/citations?user=NDzhBaUAAAAJ)
