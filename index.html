@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic Webpage" />
+    <meta name="description" content="Academic webpage of Miao Pan" />
     <meta name="author" content="Miao Pan" />
     <title id="title"></title>
 
@@ -78,38 +78,45 @@
     <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div class="container px-5">
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
+                data-i18n-aria-label="toggle-navigation">
                 <i class="bi bi-list" aria-hidden="true"></i>
-                <span class="visually-hidden">Toggle navigation</span>
+                <span class="visually-hidden" data-i18n="toggle-navigation">Toggle navigation</span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                <ul class="navbar-nav ms-auto my-3 my-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top">HOME</a>
+                        <a class="nav-link me-lg-3" href="#page-top" data-i18n="nav-home">HOME</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications">PUBLICATIONS</a>
+                        <a class="nav-link me-lg-3" href="#publications" data-i18n="nav-publications">PUBLICATIONS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#preprints">PREPRINTS</a>
+                        <a class="nav-link me-lg-3" href="#preprints" data-i18n="nav-preprints">PREPRINTS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#awards">AWARDS</a>
+                        <a class="nav-link" href="#awards" data-i18n="nav-awards">AWARDS</a>
                     </li>
                 </ul>
+                <div class="language-switcher" role="group" aria-label="Language"
+                    data-i18n-aria-label="language-switcher">
+                    <button class="language-option" type="button" data-language="en" aria-pressed="true">EN</button>
+                    <button class="language-option" type="button" data-language="zh" aria-pressed="false">中文</button>
+                </div>
             </div>
         </div>
     </nav>
 
     <!-- Top Section -->
     <section class="top-section" role="img" aria-label="Anime twilight sky and tree"
+        data-i18n-aria-label="hero-label"
         style="background-image: url('static/assets/img/background.jpg');"></section>
     <!-- Top Section -->
 
     <!-- Photo -->
     <div class="container px-5">
         <div id="avatar">
-            <img src="static/assets/img/photo.jpg" alt="Portrait of Miao Pan">
+            <img src="static/assets/img/photo.jpg" alt="Portrait of Miao Pan" data-i18n-alt="avatar-alt">
         </div>
     </div>
     <!-- Photo -->
@@ -130,7 +137,7 @@
     <section class="content-section section-muted" id="publications">
         <div class="container px-5">
             <header>
-                <h2 id="publications-subtitle"><i class="bi bi-journal-text" aria-hidden="true"></i><span>PUBLICATIONS</span></h2>
+                <h2 id="publications-subtitle"><i class="bi bi-journal-text" aria-hidden="true"></i><span data-i18n="section-publications">PUBLICATIONS</span></h2>
             </header>
             <div class="main-body" id="publications-md"></div>
 
@@ -142,7 +149,7 @@
     <section class="content-section section-light" id="preprints">
         <div class="container px-5">
             <header>
-                <h2 id="preprints-subtitle"><i class="bi bi-file-earmark-text" aria-hidden="true"></i><span>PREPRINTS</span></h2>
+                <h2 id="preprints-subtitle"><i class="bi bi-file-earmark-text" aria-hidden="true"></i><span data-i18n="section-preprints">PREPRINTS</span></h2>
             </header>
             <div class="main-body" id="preprints-md"></div>
         </div>
@@ -153,7 +160,7 @@
     <section class="content-section section-muted" id="awards">
         <div class="container px-5">
             <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award" aria-hidden="true"></i><span>AWARDS</span></h2>
+                <h2 id="awards-subtitle"><i class="bi bi-award" aria-hidden="true"></i><span data-i18n="section-awards">AWARDS</span></h2>
             </header>
             <div class="main-body" id="awards-md"></div>
         </div>
@@ -167,7 +174,7 @@
                 <div id="copyright-text" class="mb-2"></div>
                 <a id="github-link" href="https://github.com/pm1255">GitHub</a>
                 <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/pm1255/pm1255.github.io/blob/main/LICENSE">License</a>
+                <a id="license-link" href="https://github.com/pm1255/pm1255.github.io/blob/main/LICENSE" data-i18n="license">License</a>
             </div>
         </div>
     </footer>

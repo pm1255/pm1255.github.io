@@ -73,6 +73,48 @@ a:focus {
     box-shadow: 0 0 0 0.2rem rgba(49, 71, 199, 0.18);
 }
 
+.language-switcher {
+    display: inline-flex;
+    flex-shrink: 0;
+    align-self: center;
+    margin-left: 0.9rem;
+    padding: 2px;
+    border: 1px solid var(--page-line);
+    border-radius: 6px;
+    background: var(--page-soft);
+}
+
+.language-option {
+    min-width: 2.9rem;
+    height: 2rem;
+    padding: 0 0.65rem;
+    color: var(--page-muted);
+    border: 0;
+    border-radius: 4px;
+    background: transparent;
+    font: inherit;
+    font-size: 0.82rem;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0;
+}
+
+.language-option:hover,
+.language-option:focus-visible {
+    color: var(--page-brand-dark);
+}
+
+.language-option:focus-visible {
+    outline: 2px solid var(--page-accent);
+    outline-offset: 1px;
+}
+
+.language-option.is-active {
+    color: var(--page-brand-dark);
+    background: var(--page-white);
+    box-shadow: 0 1px 4px rgba(16, 24, 40, 0.14);
+}
+
 .top-section {
     position: relative;
     height: 26rem;
@@ -347,6 +389,11 @@ footer a:focus {
 
     #mainNav .navbar-nav .nav-item .nav-link {
         padding: 0.65rem 0;
+    }
+
+    .language-switcher {
+        align-self: flex-start;
+        margin: 0 0 0.5rem;
     }
 
     #avatar {

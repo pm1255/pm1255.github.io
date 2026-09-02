@@ -1,1 +1,1 @@
-- **2024-2025学年优秀研究生**
+- **Outstanding Graduate Student for the 2024-2025 Academic Year**
