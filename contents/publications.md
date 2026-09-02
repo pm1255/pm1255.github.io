@@ -10,10 +10,6 @@
 
 #### Trustworthy AI & Security
 
-- **Mitigating Manifold Departure: Uncertainty-Aware Subspace Rectification for Trustworthy MLLM Decoding.**<br>
-  Yingxuan Zhuang, Jingxiao Yang, <strong class="self-author">Miao Pan</strong>, Cheng Tan, Yuxiang Cai, Siwei Tan, Chen Zhi, Xuhong Zhang, Jianwei Yin, and Jintao Chen.<br>
-  *ICML 2026.* [[Paper]](https://arxiv.org/abs/2606.09859)
-
 - **RAGFort: Dual-Path Defense Against Proprietary Knowledge Base Extraction in Retrieval-Augmented Generation.**<br>
   Qinfeng Li<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Ke Xiong<sup aria-label="equal contribution">&#42;</sup>, Ge Su, Zhiqiang Shen, Yan Liu, Bing Sun, Hao Peng, and Xuhong Zhang.<br>
   *AAAI 2026.* [[Paper]](https://arxiv.org/pdf/2511.10128) [[Code]](https://github.com/happywinder/RAGFort)
@@ -22,7 +18,11 @@
   Qinfeng Li<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Jintao Chen, Fu Teng, Zhiqiang Shen, Ge Su, Hao Peng, and Xuhong Zhang.<br>
   *AAAI 2026.* [[Paper]](https://arxiv.org/pdf/2511.10712)
 
-#### Multimodal Agents
+#### Multimodal Agents & RL
+
+- **Mitigating Manifold Departure: Uncertainty-Aware Subspace Rectification for Trustworthy MLLM Decoding.**<br>
+  Yingxuan Zhuang, Jingxiao Yang, <strong class="self-author">Miao Pan</strong>, Cheng Tan, Yuxiang Cai, Siwei Tan, Chen Zhi, Xuhong Zhang, Jianwei Yin, and Jintao Chen.<br>
+  *ICML 2026.* [[Paper]](https://arxiv.org/abs/2606.09859)
 
 - **VERIRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning.**<br>
   Fu Teng<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Xuhong Zhang, Zhezhi He, Yiyao Yang, Xinyi Chai, Mengnan Qi, Liqiang Lu, and Jianwei Yin.<br>
