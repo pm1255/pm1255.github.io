@@ -193,12 +193,26 @@ section .main-body {
     margin-top: 0;
 }
 
+#publications-md h4,
+#preprints-md h4 {
+    margin-top: 2.5rem;
+    margin-bottom: 0.7rem;
+    color: var(--page-brand);
+    font-size: 1.36rem;
+}
+
+#publications-md h4:first-child,
+#preprints-md h4:first-child {
+    margin-top: 0;
+}
+
 .main-body p {
     margin-bottom: 0.8rem;
 }
 
 #publications-md ul,
-#preprints-md ul {
+#preprints-md ul,
+#awards-md ul {
     padding: 0;
     margin: 0;
     list-style: none;
@@ -206,7 +220,8 @@ section .main-body {
 }
 
 #publications-md li,
-#preprints-md li {
+#preprints-md li,
+#awards-md li {
     position: relative;
     padding: 1.6rem 0 1.6rem 1.15rem;
     border-top: 1px solid var(--page-line);
@@ -215,7 +230,8 @@ section .main-body {
 }
 
 #publications-md li::before,
-#preprints-md li::before {
+#preprints-md li::before,
+#awards-md li::before {
     position: absolute;
     top: 1.75rem;
     bottom: 1.75rem;
@@ -227,14 +243,17 @@ section .main-body {
 }
 
 #publications-md li p,
-#preprints-md li p {
+#preprints-md li p,
+#awards-md li p {
     margin: 0;
 }
 
 #publications-md li > strong:first-child,
 #publications-md li > p > strong:first-child,
 #preprints-md li > strong:first-child,
-#preprints-md li > p > strong:first-child {
+#preprints-md li > p > strong:first-child,
+#awards-md li > strong:first-child,
+#awards-md li > p > strong:first-child {
     color: var(--page-ink);
     font-size: 1.28rem;
     font-weight: 700;
@@ -387,19 +406,23 @@ footer a:focus {
     }
 
     #publications-md li,
-    #preprints-md li {
+    #preprints-md li,
+    #awards-md li {
         padding: 1.35rem 0 1.35rem 0.9rem;
     }
 
     #publications-md li > strong:first-child,
     #publications-md li > p > strong:first-child,
     #preprints-md li > strong:first-child,
-    #preprints-md li > p > strong:first-child {
+    #preprints-md li > p > strong:first-child,
+    #awards-md li > strong:first-child,
+    #awards-md li > p > strong:first-child {
         font-size: 1.18rem;
     }
 
     #publications-md li::before,
-    #preprints-md li::before {
+    #preprints-md li::before,
+    #awards-md li::before {
         top: 1.45rem;
         bottom: 1.45rem;
     }
