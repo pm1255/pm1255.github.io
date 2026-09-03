@@ -42,6 +42,6 @@
 
 - **Stabilizing RL Fine-Tuning of Diffusion VLAs with Sparse MoE Action Heads: Advantage- and Noise-Aware Load Balancing and Geometric-Mean Ratio.**<br>
   Jiarun Li<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Qiuting Yu, Yangfan Xie, Wenqi Zhang, Zicheng Liu, Jintao Chen, and Xuhong Zhang.<br>
-  *Under Review.*
+  *Under Review.* [[Code]](https://github.com/ZJU-OmniAI/moe-vla-rl)
 
 <p class="contribution-note"><sup aria-label="equal contribution">&#42;</sup> Equal contribution.</p>
