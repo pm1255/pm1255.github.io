@@ -1,5 +1,5 @@
 const content_dir = 'contents/'
-const section_names = ['home', 'internship', 'publications', 'preprints', 'awards']
+const section_names = ['home', 'publications', 'preprints', 'internship', 'awards']
 const localized_sections = new Set(['home', 'internship', 'awards'])
 const supported_languages = new Set(['en', 'zh'])
 

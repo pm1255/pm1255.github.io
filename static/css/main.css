@@ -583,10 +583,6 @@ footer a:focus {
 }
 
 /* Internship experience */
-#internship {
-    padding-top: 0;
-}
-
 .internship-entry {
     display: flex;
     flex-wrap: wrap;
