@@ -581,3 +581,50 @@ footer a:focus {
         transition-duration: 0.01ms !important;
     }
 }
+
+/* Internship experience */
+#internship {
+    padding-top: 0;
+}
+
+.internship-entry {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1.5rem 2.5rem;
+    padding: 1.75rem 0;
+    border-top: 1px solid var(--page-line);
+    border-bottom: 1px solid var(--page-line);
+}
+
+.internship-logo {
+    flex: 0 0 194px;
+}
+
+.internship-logo img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.internship-details {
+    flex: 1 1 240px;
+    min-width: 0;
+}
+
+.internship-details h4 {
+    margin: 0 0 0.35rem;
+}
+
+.internship-details h4 a {
+    text-decoration: none;
+}
+
+.internship-details p:last-child {
+    margin-bottom: 0;
+}
+
+.internship-date {
+    color: var(--page-muted);
+    font-size: 1.05rem;
+}

@@ -36,4 +36,10 @@
   Wangjie Gan<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Linbo Xi<sup aria-label="equal contribution">&#42;</sup>, Wenqi Zhang, Jintao Chen, Jianwei Yin, and Xuhong Zhang.<br>
   *ACL Findings 2026.* [[Paper]](https://arxiv.org/pdf/2604.14258) [[Code]](https://arxiv.org/pdf/2604.14258)
 
+#### Embodied Intelligence
+
+- **VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon.**<br>
+  Yi Pan, <strong class="self-author">Miao Pan</strong>, Qi Lu, Jiaming Huang, Man Zhang, Siteng Huang, Xin Li, Jie Zhang, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang.<br>
+  *NeurIPS 2026 (Accepted).* [[Paper]](https://arxiv.org/abs/2607.01804) [[Project]](https://zju-omniai.github.io/vla-corrector/) [[Code]](https://github.com/ZJU-OmniAI/vla-corrector)
+
 <p class="contribution-note"><sup aria-label="equal contribution">&#42;</sup> Equal contribution.</p>

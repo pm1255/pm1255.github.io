@@ -1,6 +1,6 @@
 const content_dir = 'contents/'
-const section_names = ['home', 'publications', 'preprints', 'awards']
-const localized_sections = new Set(['home', 'awards'])
+const section_names = ['home', 'internship', 'publications', 'preprints', 'awards']
+const localized_sections = new Set(['home', 'internship', 'awards'])
 const supported_languages = new Set(['en', 'zh'])
 
 const language_copy = {
@@ -12,6 +12,8 @@ const language_copy = {
         'hero-label': 'Anime twilight sky and tree',
         'avatar-alt': 'Portrait of Miao Pan',
         'nav-home': 'HOME',
+        'nav-internship': 'EXPERIENCE',
+        'section-internship': 'INTERNSHIP EXPERIENCE',
         'nav-publications': 'PUBLICATIONS',
         'nav-preprints': 'PREPRINTS',
         'nav-awards': 'AWARDS',
@@ -36,6 +38,8 @@ const language_copy = {
         'hero-label': '动漫风格的暮色天空与树木',
         'avatar-alt': '潘淼的个人照片',
         'nav-home': '首页',
+        'nav-internship': '实习经历',
+        'section-internship': '实习经历',
         'nav-publications': '论文',
         'nav-preprints': '预印本',
         'nav-awards': '奖项',

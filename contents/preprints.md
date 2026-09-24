@@ -12,7 +12,7 @@
 
 - **Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World.**<br>
   Kaixiang Yao, Xu Wang, <strong class="self-author">Miao Pan</strong>, Hu Xiyue, Weishi Wang, Daniel Dahlmeier, Jintao Chen, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang.<br>
-  *Under Review.*
+  *Under Review.* [[Paper]](https://arxiv.org/abs/2609.23038) [🌐 Project](https://zju-omniai.github.io/Spatial-Interactor/) [💻 Code](https://github.com/ZJU-OmniAI/Spatial-Interactor)
 
 - **Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text.**<br>
   Xu Wang<sup aria-label="equal contribution">&#42;</sup>, Kaixiang Yao<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong>, Xiaohe Zhou, Xuanyu Liu, Wenqi Zhang, and Xuhong Zhang.<br>
@@ -23,10 +23,6 @@
 - **Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation.**<br>
   Hongyan Feng, Sunlai Chen, Xuanyu Liu, <strong class="self-author">Miao Pan</strong>, Yangfan Xie, Yuxiang Cui, Zhongxiang Zhou, Rong Xiong, Wenqi Zhang, Jianwei Yin, Yueting Zhuang, and Xuhong Zhang.<br>
   *Under Review.* [[Paper]](https://arxiv.org/pdf/2608.17512) [[Project]](https://zju-omniai.github.io/Embodied-Navigator/) [[Model]](https://huggingface.co/UnderTides/Embodied-Navigator-7B-GRPO) [[Code]](https://github.com/ZJU-OmniAI/Embodied-Navigator)
-
-- **VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon.**<br>
-  Yi Pan, <strong class="self-author">Miao Pan</strong>, Qi Lu, Jiaming Huang, Man Zhang, Siteng Huang, Xin Li, Jie Zhang, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang.<br>
-  *Under Review.* [[Paper]](https://arxiv.org/abs/2607.01804) [[Project]](https://zju-omniai.github.io/vla-corrector/) [[Code]](https://github.com/ZJU-OmniAI/vla-corrector)
 
 - **Rubrics4VLA: Shaping Safer and More Reliable VLA Trajectory with Evolving Rubrics.**<br>
   Qiuting Yu, <strong class="self-author">Miao Pan</strong>, Jiarun Li, Kaili Liu, Sicheng He, Tao Zhang, Jintao Chen, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang.<br>
