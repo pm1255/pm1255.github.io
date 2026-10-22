@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Academic homepage of Miao Pan, Ph.D. student at Zhejiang University.">
     <meta name="author" content="Miao Pan">
-    <meta name="theme-color" content="#eaf5ff">
+    <meta name="theme-color" content="#fffaff">
     <title>Miao Pan · 潘淼</title>
     <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -49,6 +49,10 @@
             <a class="nav-link" href="#awards"><span data-i18n="nav-awards">Honors</span></a>
         </nav>
         <div class="header-tools">
+            <button class="day-toggle" type="button" aria-label="Day mode">
+                <span class="day-toggle-icon" aria-hidden="true">☼</span>
+                <span data-i18n="day-mode">Day</span>
+            </button>
             <div class="language-switcher" role="group" aria-label="Language" data-i18n-aria-label="language-switcher">
                 <button class="language-option is-active" type="button" data-language="en" aria-pressed="true" data-i18n="language-en">EN</button>
                 <button class="language-option" type="button" data-language="zh" aria-pressed="false" data-i18n="language-zh">中</button>
@@ -58,37 +62,36 @@
 
     <main id="main-content" class="page">
         <section id="home" class="profile-hero content-section">
+            <h1 class="profile-title">Miao Pan <span>潘淼</span></h1>
             <div class="profile-copy">
                 <p class="eyebrow" data-i18n="kicker-profile">Profile</p>
-                <h1>Miao Pan <span>潘淼</span></h1>
                 <p class="profile-role" data-i18n="profile-role">Ph.D. student · Zhejiang University</p>
                 <div class="profile-bio markdown-body" id="home-md" aria-live="polite"></div>
-                <div class="profile-links" aria-label="Contact links">
-                    <a href="mailto:22351015@zju.edu.cn"><span class="link-icon" aria-hidden="true">@</span><span>Email</span></a>
-                    <a href="https://scholar.google.com/citations?user=NDzhBaUAAAAJ" target="_blank" rel="noreferrer"><span class="link-icon" aria-hidden="true">↗</span><span>Google Scholar</span></a>
-                    <a href="https://github.com/pm1255" target="_blank" rel="noreferrer"><span class="link-icon" aria-hidden="true">⌘</span><span>GitHub</span></a>
-                </div>
                 <div class="research-tags" aria-label="Research interests">
                     <span>Embodied intelligence</span><span>Multimodal agents</span><span>Trustworthy AI</span><span>Computer networks</span>
                 </div>
             </div>
             <figure class="profile-portrait">
-                <img src="static/assets/img/avatar-anime.webp" alt="Anime-style portrait of Miao Pan" data-i18n-alt="avatar-alt">
-                <figcaption><span>Hangzhou, China</span><span aria-hidden="true">✦</span></figcaption>
+                <img src="static/assets/img/avatar-doraemon.png" alt="Doraemon avatar" data-i18n-alt="avatar-alt">
             </figure>
+            <div class="profile-links" aria-label="Contact links">
+                <a href="mailto:22351015@zju.edu.cn"><span class="link-icon" aria-hidden="true">@</span><span>Email</span></a>
+                <a href="https://scholar.google.com/citations?user=NDzhBaUAAAAJ" target="_blank" rel="noreferrer"><span class="link-icon" aria-hidden="true">↗</span><span>Google Scholar</span></a>
+                <a href="https://github.com/pm1255" target="_blank" rel="noreferrer"><span class="link-icon" aria-hidden="true">⌘</span><span>GitHub</span></a>
+            </div>
         </section>
 
         <section id="news" class="content-section news-section">
             <div class="section-heading-row">
-                <div><p class="eyebrow" data-i18n="news-kicker">Conference decisions</p><h2 data-i18n="news-title">Acceptance dates</h2></div>
+                <div><p class="eyebrow" data-i18n="news-kicker">Conference decisions</p><h2 data-i18n="news-title">News</h2></div>
             </div>
             <ul class="news-list">
-                <li><time datetime="2026-09-24" data-i18n="date-1">Sep 24, 2026</time><div><strong>VLA-Corrector</strong><p data-i18n="update-1">NeurIPS 2026 · author notification</p></div></li>
-                <li><time datetime="2026-04-30" data-i18n="date-2">Apr 30, 2026</time><div><strong>Mitigating Manifold Departure</strong><p data-i18n="update-2">ICML 2026 · author notification</p></div></li>
-                <li><time datetime="2026-04-04" data-i18n="date-3">Apr 4, 2026</time><div><strong>GFT</strong><p data-i18n="update-3">ACL Findings 2026 · acceptance notification</p></div></li>
-                <li><time datetime="2025-12-08" data-i18n="date-4">Dec 8, 2025</time><div><strong>INFOCOM 2026 papers</strong><p data-i18n="update-4">INFOCOM 2026 · acceptance notification</p></div></li>
-                <li><time datetime="2025-11-08" data-i18n="date-5">Nov 8, 2025</time><div><strong>AAAI 2026 papers</strong><p data-i18n="update-5">AAAI-26 · final acceptance notification</p></div></li>
-                <li><time datetime="2025-06-30" data-i18n="date-6">Jun 30, 2025</time><div><strong>VERIRL</strong><p data-i18n="update-6">ICCAD 2025 · regular-paper notification</p></div></li>
+                <li><time datetime="2026-09-24" data-i18n="date-1">Sep 24, 2026</time><span class="news-marker" aria-hidden="true">🎉</span><div class="news-event"><strong>VLA-Corrector</strong><p data-i18n="update-1">NeurIPS 2026 · author notification</p></div></li>
+                <li><time datetime="2026-04-30" data-i18n="date-2">Apr 30, 2026</time><span class="news-marker" aria-hidden="true">✨</span><div class="news-event"><strong>Mitigating Manifold Departure</strong><p data-i18n="update-2">ICML 2026 · author notification</p></div></li>
+                <li><time datetime="2026-04-04" data-i18n="date-3">Apr 4, 2026</time><span class="news-marker" aria-hidden="true">📣</span><div class="news-event"><strong>GFT</strong><p data-i18n="update-3">ACL Findings 2026 · acceptance notification</p></div></li>
+                <li><time datetime="2025-12-08" data-i18n="date-4">Dec 8, 2025</time><span class="news-marker" aria-hidden="true">📄</span><div class="news-event"><strong>INFOCOM 2026 papers</strong><p data-i18n="update-4">INFOCOM 2026 · acceptance notification</p></div></li>
+                <li><time datetime="2025-11-08" data-i18n="date-5">Nov 8, 2025</time><span class="news-marker" aria-hidden="true">🎊</span><div class="news-event"><strong>AAAI 2026 papers</strong><p data-i18n="update-5">AAAI-26 · final acceptance notification</p></div></li>
+                <li><time datetime="2025-06-30" data-i18n="date-6">Jun 30, 2025</time><span class="news-marker" aria-hidden="true">📝</span><div class="news-event"><strong>VERIRL</strong><p data-i18n="update-6">ICCAD 2025 · regular-paper notification</p></div></li>
             </ul>
         </section>
 
@@ -111,23 +114,23 @@
             </div>
             <div class="project-grid">
                 <article class="project-card project-card-featured"><div class="project-topline"><span class="project-index">01</span><span class="project-status" data-i18n="public-code">Open source</span></div><h3>Scene-Designer</h3><p data-i18n="scene-description">Agentic 3D scene generation.</p><div class="project-links">
-                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/Scene-Designer" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-project" href="https://zju-omniai.github.io/Scene-Designer/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-paper" href="https://arxiv.org/abs/2610.23121" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-model" href="https://huggingface.co/XuanyuLiu/Scene-Builder-Qwen3-VL-8B-Instruct" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-model"></use></svg><span data-i18n="model-link">Model</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-dataset" href="https://huggingface.co/datasets/XuanyuLiu/Scene-OTC-Bench" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-dataset"></use></svg><span data-i18n="dataset-link">Dataset</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/Scene-Designer" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code" xlink:href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-project" href="https://zju-omniai.github.io/Scene-Designer/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project" xlink:href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-paper" href="https://arxiv.org/abs/2610.23121" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper" xlink:href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-model" href="https://huggingface.co/XuanyuLiu/Scene-Builder-Qwen3-VL-8B-Instruct" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-model" xlink:href="#icon-model"></use></svg><span data-i18n="model-link">Model</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-dataset" href="https://huggingface.co/datasets/XuanyuLiu/Scene-OTC-Bench" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-dataset" xlink:href="#icon-dataset"></use></svg><span data-i18n="dataset-link">Dataset</span><span aria-hidden="true">↗</span></a>
                 </div></article>
                 <article class="project-card"><div class="project-topline"><span class="project-index">02</span><span class="project-status" data-i18n="public-code">Open source</span></div><h3>Spatial-Interactor</h3><p data-i18n="spatial-description">Spatial reasoning through interaction.</p><div class="project-links">
-                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/Spatial-Interactor" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-project" href="https://zju-omniai.github.io/Spatial-Interactor/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-paper" href="https://arxiv.org/abs/2609.23038" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-model" href="https://huggingface.co/collections/kagakouko/spatial-interactor" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-model"></use></svg><span data-i18n="artifacts-link">Models &amp; data</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/Spatial-Interactor" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code" xlink:href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-project" href="https://zju-omniai.github.io/Spatial-Interactor/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project" xlink:href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-paper" href="https://arxiv.org/abs/2609.23038" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper" xlink:href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-model" href="https://huggingface.co/collections/kagakouko/spatial-interactor" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-model" xlink:href="#icon-model"></use></svg><span data-i18n="artifacts-link">Models &amp; data</span><span aria-hidden="true">↗</span></a>
                 </div></article>
                 <article class="project-card"><div class="project-topline"><span class="project-index">03</span><span class="project-status" data-i18n="public-code">Open source</span></div><h3>Show, Don’t Tell</h3><p data-i18n="show-description">A benchmark for spatial cognition in generative pixels.</p><div class="project-links">
-                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/ProVisE" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-project" href="https://zju-omniai.github.io/ProVisE/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-paper" href="https://arxiv.org/abs/2607.21072" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-dataset" href="https://huggingface.co/datasets/wx91726/SpatialGen-Bench" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-dataset"></use></svg><span data-i18n="dataset-link">Dataset</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/ProVisE" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code" xlink:href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-project" href="https://zju-omniai.github.io/ProVisE/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project" xlink:href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-paper" href="https://arxiv.org/abs/2607.21072" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper" xlink:href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-dataset" href="https://huggingface.co/datasets/wx91726/SpatialGen-Bench" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-dataset" xlink:href="#icon-dataset"></use></svg><span data-i18n="dataset-link">Dataset</span><span aria-hidden="true">↗</span></a>
                 </div></article>
             </div>
         </section>

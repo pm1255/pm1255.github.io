@@ -7,10 +7,10 @@ const copy = {
     en: {
         title: 'Miao Pan · 潘淼',
         'skip-to-content': 'Skip to content',
-        'avatar-alt': 'Anime-style portrait of Miao Pan',
+        'avatar-alt': 'Doraemon avatar for Miao Pan',
         'profile-role': 'Ph.D. student · Zhejiang University',
         'nav-about': 'About',
-        'nav-news': 'Updates',
+        'nav-news': 'News',
         'nav-publications': 'Papers',
         'nav-opensource': 'Projects',
         'nav-experience': 'Experience',
@@ -18,9 +18,10 @@ const copy = {
         'language-switcher': 'Language',
         'language-en': 'EN',
         'language-zh': '中',
+        'day-mode': 'Day',
         'kicker-profile': 'Profile',
         'news-kicker': 'Conference decisions',
-        'news-title': 'Acceptance dates',
+        'news-title': 'News',
         'date-1': 'Sep 24, 2026',
         'date-2': 'Apr 30, 2026',
         'date-3': 'Apr 4, 2026',
@@ -65,7 +66,7 @@ const copy = {
     zh: {
         title: '潘淼 · Miao Pan',
         'skip-to-content': '跳转到正文',
-        'avatar-alt': '潘淼的二次元头像',
+        'avatar-alt': '潘淼的哆啦A梦头像',
         'profile-role': '浙江大学 · 软件工程博士生',
         'nav-about': '关于我',
         'nav-news': '动态',
@@ -76,9 +77,10 @@ const copy = {
         'language-switcher': '语言',
         'language-en': 'EN',
         'language-zh': '中',
+        'day-mode': '白天',
         'kicker-profile': '个人简介',
         'news-kicker': '会议录用',
-        'news-title': '录用时间',
+        'news-title': '动态',
         'date-1': '2026 年 9 月 24 日',
         'date-2': '2026 年 4 月 30 日',
         'date-3': '2026 年 4 月 4 日',
@@ -206,7 +208,9 @@ function createActionIcon(type) {
     icon.setAttribute('focusable', 'false')
 
     const use = document.createElementNS('http://www.w3.org/2000/svg', 'use')
-    use.setAttribute('href', `#icon-${type}`)
+    const iconReference = `#icon-${type}`
+    use.setAttribute('href', iconReference)
+    use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', iconReference)
     icon.appendChild(use)
     return icon
 }
