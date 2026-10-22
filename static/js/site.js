@@ -52,9 +52,9 @@ const copy = {
         'dataset-link': 'Dataset',
         'artifacts-link': 'Models & data',
         'kicker-experience': 'Experience',
-        'experience-title': 'Experience',
+        'experience-title': 'Education & Experience',
         'kicker-awards': 'Honors',
-        'awards-title': 'Honors',
+        'awards-title': 'Honors & Services',
         paperCount: count => `${count} ${count === 1 ? 'paper' : 'papers'}`,
         directions: {
             'Computer Networks': 'Computer Networks',
@@ -111,9 +111,9 @@ const copy = {
         'dataset-link': '数据集',
         'artifacts-link': '模型与数据',
         'kicker-experience': '经历',
-        'experience-title': '经历',
+        'experience-title': '教育与经历',
         'kicker-awards': '荣誉',
-        'awards-title': '荣誉',
+        'awards-title': '荣誉与服务',
         paperCount: count => `${count} 篇论文`,
         directions: {
             'Computer Networks': '计算机网络',
