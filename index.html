@@ -44,7 +44,6 @@
             <a class="nav-link is-active" href="#home"><span data-i18n="nav-about">About</span></a>
             <a class="nav-link" href="#news"><span data-i18n="nav-news">Updates</span></a>
             <a class="nav-link" href="#publications"><span data-i18n="nav-publications">Papers</span></a>
-            <a class="nav-link" href="#opensource"><span data-i18n="nav-opensource">Projects</span></a>
             <a class="nav-link" href="#experience"><span data-i18n="nav-experience">Experience</span></a>
             <a class="nav-link" href="#awards"><span data-i18n="nav-awards">Honors</span></a>
         </nav>
@@ -67,12 +66,15 @@
                 <p class="eyebrow" data-i18n="kicker-profile">Profile</p>
                 <p class="profile-role" data-i18n="profile-role">Ph.D. student · Zhejiang University</p>
                 <div class="profile-bio markdown-body" id="home-md" aria-live="polite"></div>
-                <div class="research-tags" aria-label="Research interests">
-                    <span>Embodied intelligence</span><span>Multimodal agents</span><span>Trustworthy AI</span><span>Computer networks</span>
+                <div class="research-tags" aria-label="Research interests" data-i18n-aria-label="research-interests">
+                    <span data-i18n="interest-harness">Embodied agent harnesses</span>
+                    <span data-i18n="interest-generalist">Generalist embodied models</span>
+                    <span data-i18n="interest-rl">Reinforcement learning</span>
                 </div>
             </div>
             <figure class="profile-portrait">
                 <img src="static/assets/img/avatar-doraemon.png?v=4cafb51" alt="Doraemon avatar" data-i18n-alt="avatar-alt">
+                <figcaption data-i18n="avatar-caption">Ph.D. student · Zhejiang University</figcaption>
             </figure>
             <div class="profile-links" aria-label="Contact links">
                 <a href="mailto:22351015@zju.edu.cn"><span class="link-icon" aria-hidden="true">@</span><span>Email</span></a>
@@ -87,11 +89,11 @@
             </div>
             <ul class="news-list">
                 <li><time datetime="2026-09-24" data-i18n="date-1">Sep 24, 2026</time><span class="news-marker" aria-hidden="true">🎉</span><div class="news-event"><strong>VLA-Corrector</strong><p data-i18n="update-1">NeurIPS 2026 · author notification</p></div></li>
-                <li><time datetime="2026-04-30" data-i18n="date-2">Apr 30, 2026</time><span class="news-marker" aria-hidden="true">✨</span><div class="news-event"><strong>Mitigating Manifold Departure</strong><p data-i18n="update-2">ICML 2026 · author notification</p></div></li>
-                <li><time datetime="2026-04-04" data-i18n="date-3">Apr 4, 2026</time><span class="news-marker" aria-hidden="true">📣</span><div class="news-event"><strong>GFT</strong><p data-i18n="update-3">ACL Findings 2026 · acceptance notification</p></div></li>
-                <li><time datetime="2025-12-08" data-i18n="date-4">Dec 8, 2025</time><span class="news-marker" aria-hidden="true">📄</span><div class="news-event"><strong>INFOCOM 2026 papers</strong><p data-i18n="update-4">INFOCOM 2026 · acceptance notification</p></div></li>
-                <li><time datetime="2025-11-08" data-i18n="date-5">Nov 8, 2025</time><span class="news-marker" aria-hidden="true">🎊</span><div class="news-event"><strong>AAAI 2026 papers</strong><p data-i18n="update-5">AAAI-26 · final acceptance notification</p></div></li>
-                <li><time datetime="2025-06-30" data-i18n="date-6">Jun 30, 2025</time><span class="news-marker" aria-hidden="true">📝</span><div class="news-event"><strong>VERIRL</strong><p data-i18n="update-6">ICCAD 2025 · regular-paper notification</p></div></li>
+                <li><time datetime="2026-04-30" data-i18n="date-2">Apr 30, 2026</time><span class="news-marker" aria-hidden="true">✨</span><div class="news-event"><strong>Manifold Departure</strong><p data-i18n="update-2">ICML 2026 accepted · author notification</p></div></li>
+                <li><time datetime="2026-04-04" data-i18n="date-3">Apr 4, 2026</time><span class="news-marker" aria-hidden="true">📣</span><div class="news-event"><strong>GFT</strong><p data-i18n="update-3">ACL Findings 2026 accepted · author notification</p></div></li>
+                <li><time datetime="2025-12-08" data-i18n="date-4">Dec 8, 2025</time><span class="news-marker" aria-hidden="true">📄</span><div class="news-event"><strong>Wiener Sampling · OU Sampling</strong><p data-i18n="update-4">INFOCOM 2026 accepted · oral presentations, May 18–21, 2026 · Tokyo, Japan</p></div></li>
+                <li><time datetime="2025-11-08" data-i18n="date-5">Nov 8, 2025</time><span class="news-marker" aria-hidden="true">🎊</span><div class="news-event"><strong>GWS · RAGFort · DNMM</strong><p data-i18n="update-5">AAAI 2026 accepted · final acceptance notification</p></div></li>
+                <li><time datetime="2025-06-30" data-i18n="date-6">Jun 30, 2025</time><span class="news-marker" aria-hidden="true">📝</span><div class="news-event"><strong>VERIRL</strong><p data-i18n="update-6">ICCAD 2025 accepted · oral presentation, Oct 29, 2025 · Room Barcelona, Munich, Germany</p></div></li>
             </ul>
         </section>
 
@@ -99,40 +101,7 @@
             <div class="section-heading-row">
                 <div><p class="eyebrow" data-i18n="kicker-publications">Research</p><h2 data-i18n="publications-title">Papers</h2></div>
             </div>
-            <div id="research-filters" class="research-filters" role="group" aria-label="Research directions"></div>
-            <p class="paper-stream-label" data-i18n="published-label">Publications</p>
-            <div class="markdown-body paper-stream" id="publications-md" aria-live="polite"></div>
-            <div id="preprints" class="paper-subsection">
-                <p class="paper-stream-label" data-i18n="preprints-label">Preprints</p>
-                <div class="markdown-body paper-stream" id="preprints-md" aria-live="polite"></div>
-            </div>
-        </section>
-
-        <section id="opensource" class="content-section opensource-section">
-            <div class="section-heading-row">
-                <div><p class="eyebrow" data-i18n="kicker-opensource">Projects</p><h2 data-i18n="opensource-title">Projects</h2></div>
-            </div>
-            <div class="project-grid">
-                <article class="project-card project-card-featured"><div class="project-topline"><span class="project-index">01</span><span class="project-status" data-i18n="public-code">Open source</span></div><h3>Scene-Designer</h3><p data-i18n="scene-description">Agentic 3D scene generation.</p><div class="project-links">
-                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/Scene-Designer" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code" xlink:href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-project" href="https://zju-omniai.github.io/Scene-Designer/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project" xlink:href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-paper" href="https://arxiv.org/abs/2610.23121" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper" xlink:href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-model" href="https://huggingface.co/XuanyuLiu/Scene-Builder-Qwen3-VL-8B-Instruct" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-model" xlink:href="#icon-model"></use></svg><span data-i18n="model-link">Model</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-dataset" href="https://huggingface.co/datasets/XuanyuLiu/Scene-OTC-Bench" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-dataset" xlink:href="#icon-dataset"></use></svg><span data-i18n="dataset-link">Dataset</span><span aria-hidden="true">↗</span></a>
-                </div></article>
-                <article class="project-card"><div class="project-topline"><span class="project-index">02</span><span class="project-status" data-i18n="public-code">Open source</span></div><h3>Spatial-Interactor</h3><p data-i18n="spatial-description">Spatial reasoning through interaction.</p><div class="project-links">
-                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/Spatial-Interactor" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code" xlink:href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-project" href="https://zju-omniai.github.io/Spatial-Interactor/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project" xlink:href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-paper" href="https://arxiv.org/abs/2609.23038" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper" xlink:href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-model" href="https://huggingface.co/collections/kagakouko/spatial-interactor" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-model" xlink:href="#icon-model"></use></svg><span data-i18n="artifacts-link">Models &amp; data</span><span aria-hidden="true">↗</span></a>
-                </div></article>
-                <article class="project-card"><div class="project-topline"><span class="project-index">03</span><span class="project-status" data-i18n="public-code">Open source</span></div><h3>Show, Don’t Tell</h3><p data-i18n="show-description">A benchmark for spatial cognition in generative pixels.</p><div class="project-links">
-                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/ProVisE" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code" xlink:href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-project" href="https://zju-omniai.github.io/ProVisE/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project" xlink:href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-paper" href="https://arxiv.org/abs/2607.21072" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper" xlink:href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
-                    <a class="action-link action-dataset" href="https://huggingface.co/datasets/wx91726/SpatialGen-Bench" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-dataset" xlink:href="#icon-dataset"></use></svg><span data-i18n="dataset-link">Dataset</span><span aria-hidden="true">↗</span></a>
-                </div></article>
-            </div>
+            <div class="markdown-body paper-stream" id="papers-md" aria-live="polite"></div>
         </section>
 
         <section id="experience" class="content-section cv-section">
