@@ -8,7 +8,7 @@ const copy = {
         title: 'Miao Pan · 潘淼',
         'skip-to-content': 'Skip to content',
         'avatar-alt': 'Doraemon avatar for Miao Pan',
-        'avatar-caption': 'Ph.D. student · Zhejiang University',
+        'avatar-caption': 'Software Engineering Ph.D. student',
         'research-interests': 'Research interests',
         'interest-harness': 'Embodied agent harnesses',
         'interest-generalist': 'Generalist embodied models',
@@ -54,7 +54,7 @@ const copy = {
         title: '潘淼 · Miao Pan',
         'skip-to-content': '跳转到正文',
         'avatar-alt': '潘淼的哆啦A梦头像',
-        'avatar-caption': '浙江大学 · 杭州，中国',
+        'avatar-caption': '软件工程博士生',
         'research-interests': '研究兴趣',
         'interest-harness': '具身智能体 Harness',
         'interest-generalist': '通用具身模型',
@@ -113,6 +113,9 @@ const paperVisuals = [
     ['embodied-navigator', 'https://zju-omniai.github.io/Embodied-Navigator/img/architecture.png'],
     ['embodiedmemory', 'https://zju-omniai.github.io/Embodied-Omni/EmbodiedMemoryBench/assets/architecture.png'],
     ['sare:', 'https://arxiv.org/html/2603.17729v3/overview4.png'],
+    ['rubrics4vla', 'static/assets/img/papers/rubrics4vla-method.png'],
+    ['stabilizing rl', 'static/assets/img/papers/moe-vla-rl-method.png'],
+    ['fractional reinforcement', 'static/assets/img/papers/fractional-rl-method.png'],
 ]
 
 let renderSequence = 0
