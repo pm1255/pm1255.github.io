@@ -1595,6 +1595,7 @@ body::before {
 .news-event strong {
     display: inline;
     margin: 0;
+    margin-right: .32em;
     color: var(--accent);
     font-size: inherit;
     font-weight: 700;
