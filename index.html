@@ -1,201 +1,148 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="Academic webpage of Miao Pan" />
-    <meta name="author" content="Miao Pan" />
-    <title id="title"></title>
-
-    <!-- Icon -->
-    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico" />
-
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
-
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link type="text/css" href="static/css/styles.css" rel="stylesheet" />
-    <link type="text/css" href="static/css/main.css" rel="stylesheet" />
-
-    <!-- Bootstrap core JS-->
-    <script type="text/javascript" src="static/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Markdown -->
-    <script type="text/javascript" src="static/js/marked.min.js"></script>
-
-    <!-- Mathematics -->
-    <script>
-        // See https://docs.mathjax.org/en/latest/index.html for more details.
-        MathJax = {
-            tex: {
-                packages: {},              // extensions to use
-                inlineMath: [              // start/end delimiter pairs for in-line math
-                    ['$', '$'],
-                    ['\\(', '\\)']
-                ],
-                displayMath: [             // start/end delimiter pairs for display math
-                    ['$$', '$$'],
-                    ['\\[', '\\]']
-                ],
-                processEscapes: false,      // use \$ to produce a literal dollar sign
-                processEnvironments: true, // process \begin{xxx}...\end{xxx} outside math mode
-                processRefs: true,         // process \ref{...} outside of math mode
-                digits: /^(?:[0-9]+(?:\{,\}[0-9]{3})*(?:\.[0-9]*)?|\.[0-9]+)/,    // pattern for recognizing numbers
-                tags: 'all',              // or 'ams' or 'all'
-                tagSide: 'right',          // side for \tag macros
-                tagIndent: '0.8em',        // amount to indent tags
-                useLabelIds: true,         // use label name rather than tag for ids
-                maxMacros: 10000,          // maximum number of macro substitutions per expression
-                maxBuffer: 5 * 1024,       // maximum size for the internal TeX string (5K)
-                // baseURL:                   // URL for use with links to tags (when there is a <base> tag in effect)
-                // (document.getElementsByTagName('base').length === 0) ? '' : String(document.location).replace(/#.*$/, ''),
-                formatError:               // function called when TeX syntax errors occur
-                    (jax, err) => jax.formatError(err)
-            }
-        };
-    </script>
-    <script type="text/javascript" id="MathJax-script" defer src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    
-    <!-- Core JS-->
-    <script type="text/javascript" src="static/js/scripts.js"></script>
-    <script type="text/javascript" src="static/js/js-yaml.min.js"></script>
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Academic homepage of Miao Pan, Ph.D. student at Zhejiang University.">
+    <meta name="author" content="Miao Pan">
+    <meta name="theme-color" content="#eaf5ff">
+    <title>Miao Pan · 潘淼</title>
+    <link rel="icon" type="image/x-icon" href="static/assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600;6..72,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="static/css/site.css">
+    <script defer src="static/js/marked.min.js"></script>
+    <script defer src="static/js/site.js"></script>
 </head>
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="header navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
-        <div class="container px-5">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"
-                data-i18n-aria-label="toggle-navigation">
-                <i class="bi bi-list" aria-hidden="true"></i>
-                <span class="visually-hidden" data-i18n="toggle-navigation">Toggle navigation</span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto my-3 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#page-top" data-i18n="nav-home">HOME</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#publications" data-i18n="nav-publications">PUBLICATIONS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#preprints" data-i18n="nav-preprints">PREPRINTS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link me-lg-3" href="#internship" data-i18n="nav-internship">EXPERIENCE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#awards" data-i18n="nav-awards">AWARDS</a>
-                    </li>
-                </ul>
+<body>
+    <svg class="icon-sprite" aria-hidden="true" focusable="false">
+        <symbol id="icon-code" viewBox="0 0 24 24"><path d="m8.5 8-4 4 4 4M15.5 8l4 4-4 4M13.5 5l-3 14" /></symbol>
+        <symbol id="icon-project" viewBox="0 0 24 24"><rect x="3.5" y="4.5" width="17" height="15" rx="2" /><path d="M3.5 9h17M7 6.75h.01M10 6.75h.01M13 6.75h.01" /></symbol>
+        <symbol id="icon-paper" viewBox="0 0 24 24"><path d="M6 3.5h9l3 3v14H6zM15 3.5v4h3M9 12h6M9 15.5h6" /></symbol>
+        <symbol id="icon-model" viewBox="0 0 24 24"><path d="m12 3.5 7.5 4.25v8.5L12 20.5l-7.5-4.25v-8.5zM12 12l7.5-4.25M12 12 4.5 7.75M12 12v8.5" /></symbol>
+        <symbol id="icon-dataset" viewBox="0 0 24 24"><ellipse cx="12" cy="5.5" rx="7.5" ry="2.5" /><path d="M4.5 5.5v6c0 1.38 3.36 2.5 7.5 2.5s7.5-1.12 7.5-2.5v-6M4.5 11.5v6c0 1.38 3.36 2.5 7.5 2.5s7.5-1.12 7.5-2.5v-6" /></symbol>
+    </svg>
+
+    <div class="snowfall" aria-hidden="true">
+        <span class="snowflake snowflake-a">✦</span><span class="snowflake snowflake-b">❄</span>
+        <span class="snowflake snowflake-c">·</span><span class="snowflake snowflake-d">✧</span>
+        <span class="snowflake snowflake-e">❅</span><span class="snowflake snowflake-f">·</span>
+        <span class="snowflake snowflake-g">✦</span><span class="snowflake snowflake-h">❄</span>
+        <span class="snowflake snowflake-i">·</span><span class="snowflake snowflake-j">✧</span>
+        <span class="snowflake snowflake-k">❅</span><span class="snowflake snowflake-l">·</span>
+        <span class="snowflake snowflake-m">✦</span><span class="snowflake snowflake-n">❄</span>
+    </div>
+
+    <a class="skip-link" href="#main-content" data-i18n="skip-to-content">Skip to content</a>
+
+    <header class="site-header">
+        <a class="brand" href="#home" aria-label="Miao Pan home">Miao Pan <span>潘淼</span></a>
+        <nav class="top-nav" aria-label="Sections">
+            <a class="nav-link is-active" href="#home"><span data-i18n="nav-about">About</span></a>
+            <a class="nav-link" href="#news"><span data-i18n="nav-news">Updates</span></a>
+            <a class="nav-link" href="#publications"><span data-i18n="nav-publications">Papers</span></a>
+            <a class="nav-link" href="#opensource"><span data-i18n="nav-opensource">Projects</span></a>
+            <a class="nav-link" href="#experience"><span data-i18n="nav-experience">Experience</span></a>
+            <a class="nav-link" href="#awards"><span data-i18n="nav-awards">Honors</span></a>
+        </nav>
+        <div class="header-tools">
+            <div class="language-switcher" role="group" aria-label="Language" data-i18n-aria-label="language-switcher">
+                <button class="language-option is-active" type="button" data-language="en" aria-pressed="true" data-i18n="language-en">EN</button>
+                <button class="language-option" type="button" data-language="zh" aria-pressed="false" data-i18n="language-zh">中</button>
             </div>
         </div>
-    </nav>
+    </header>
 
-    <!-- Top Section -->
-    <section class="top-section" role="img" aria-label="Anime twilight sky and tree"
-        data-i18n-aria-label="hero-label"
-        style="background-image: url('static/assets/img/background.jpg');"></section>
-    <!-- Top Section -->
-
-    <!-- Photo -->
-    <div class="container px-5">
-        <div id="avatar">
-            <img src="static/assets/img/photo.jpg" alt="Portrait of Miao Pan" data-i18n-alt="avatar-alt">
-        </div>
-    </div>
-    <!-- Photo -->
-    
-    <!-- Home -->
-    <section class="content-section section-light" id="home">
-        <div class="container px-5">
-            <header>
-                <h2 id="home-subtitle"> </h2>
-                <!-- <span class="bi bi-list"></span> -->
-            </header>
-            <div class="main-body" id="home-md"></div>
-            <div class="profile-language">
-                <div class="language-switcher" role="group" aria-label="Language"
-                    data-i18n-aria-label="language-switcher">
-                    <button class="language-option" type="button" data-language="en" aria-pressed="true"
-                        data-i18n="language-en">English</button>
-                    <button class="language-option" type="button" data-language="zh" aria-pressed="false"
-                        data-i18n="language-zh">Chinese</button>
+    <main id="main-content" class="page">
+        <section id="home" class="profile-hero content-section">
+            <div class="profile-copy">
+                <p class="eyebrow" data-i18n="kicker-profile">Profile</p>
+                <h1>Miao Pan <span>潘淼</span></h1>
+                <p class="profile-role" data-i18n="profile-role">Ph.D. student · Zhejiang University</p>
+                <div class="profile-bio markdown-body" id="home-md" aria-live="polite"></div>
+                <div class="profile-links" aria-label="Contact links">
+                    <a href="mailto:22351015@zju.edu.cn"><span class="link-icon" aria-hidden="true">@</span><span>Email</span></a>
+                    <a href="https://scholar.google.com/citations?user=NDzhBaUAAAAJ" target="_blank" rel="noreferrer"><span class="link-icon" aria-hidden="true">↗</span><span>Google Scholar</span></a>
+                    <a href="https://github.com/pm1255" target="_blank" rel="noreferrer"><span class="link-icon" aria-hidden="true">⌘</span><span>GitHub</span></a>
+                </div>
+                <div class="research-tags" aria-label="Research interests">
+                    <span>Embodied intelligence</span><span>Multimodal agents</span><span>Trustworthy AI</span><span>Computer networks</span>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- Home -->
+            <figure class="profile-portrait">
+                <img src="static/assets/img/avatar-anime.webp" alt="Anime-style portrait of Miao Pan" data-i18n-alt="avatar-alt">
+                <figcaption><span>Hangzhou, China</span><span aria-hidden="true">✦</span></figcaption>
+            </figure>
+        </section>
 
-    <!-- Publications -->
-    <section class="content-section section-muted" id="publications">
-        <div class="container px-5">
-            <header>
-                <h2 id="publications-subtitle"><i class="bi bi-journal-text" aria-hidden="true"></i><span data-i18n="section-publications">PUBLICATIONS</span></h2>
-            </header>
-            <div class="main-body" id="publications-md"></div>
-
-        </div>
-    </section>
-    <!-- Publications  -->
-
-    <!-- Preprints -->
-    <section class="content-section section-light" id="preprints">
-        <div class="container px-5">
-            <header>
-                <h2 id="preprints-subtitle"><i class="bi bi-file-earmark-text" aria-hidden="true"></i><span data-i18n="section-preprints">PREPRINTS</span></h2>
-            </header>
-            <div class="main-body" id="preprints-md"></div>
-        </div>
-    </section>
-    <!-- Preprints -->
-
-    <!-- Internship -->
-    <section class="content-section section-light" id="internship">
-        <div class="container px-5">
-            <header>
-                <h2 id="internship-subtitle"><i class="bi bi-briefcase" aria-hidden="true"></i><span data-i18n="section-internship">INTERNSHIP EXPERIENCE</span></h2>
-            </header>
-            <div class="main-body" id="internship-md"></div>
-        </div>
-    </section>
-
-    <!-- Awards -->
-    <section class="content-section section-muted" id="awards">
-        <div class="container px-5">
-            <header>
-                <h2 id="awards-subtitle"><i class="bi bi-award" aria-hidden="true"></i><span data-i18n="section-awards">AWARDS</span></h2>
-            </header>
-            <div class="main-body" id="awards-md"></div>
-        </div>
-    </section>
-    <!-- Awards -->
-
-    <!-- Footer-->
-    <footer class="bg-bottom text-center py-5">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <div id="copyright-text" class="mb-2"></div>
-                <a id="github-link" href="https://github.com/pm1255">GitHub</a>
-                <span class="mx-1">&middot;</span>
-                <a id="license-link" href="https://github.com/pm1255/pm1255.github.io/blob/main/LICENSE" data-i18n="license">License</a>
+        <section id="news" class="content-section news-section">
+            <div class="section-heading-row">
+                <div><p class="eyebrow" data-i18n="news-kicker">Conference decisions</p><h2 data-i18n="news-title">Acceptance dates</h2></div>
             </div>
-        </div>
-    </footer>
+            <ul class="news-list">
+                <li><time datetime="2026-09-24" data-i18n="date-1">Sep 24, 2026</time><div><strong>VLA-Corrector</strong><p data-i18n="update-1">NeurIPS 2026 · author notification</p></div></li>
+                <li><time datetime="2026-04-30" data-i18n="date-2">Apr 30, 2026</time><div><strong>Mitigating Manifold Departure</strong><p data-i18n="update-2">ICML 2026 · author notification</p></div></li>
+                <li><time datetime="2026-04-04" data-i18n="date-3">Apr 4, 2026</time><div><strong>GFT</strong><p data-i18n="update-3">ACL Findings 2026 · acceptance notification</p></div></li>
+                <li><time datetime="2025-12-08" data-i18n="date-4">Dec 8, 2025</time><div><strong>INFOCOM 2026 papers</strong><p data-i18n="update-4">INFOCOM 2026 · acceptance notification</p></div></li>
+                <li><time datetime="2025-11-08" data-i18n="date-5">Nov 8, 2025</time><div><strong>AAAI 2026 papers</strong><p data-i18n="update-5">AAAI-26 · final acceptance notification</p></div></li>
+                <li><time datetime="2025-06-30" data-i18n="date-6">Jun 30, 2025</time><div><strong>VERIRL</strong><p data-i18n="update-6">ICCAD 2025 · regular-paper notification</p></div></li>
+            </ul>
+        </section>
 
+        <section id="publications" class="content-section papers-section">
+            <div class="section-heading-row">
+                <div><p class="eyebrow" data-i18n="kicker-publications">Research</p><h2 data-i18n="publications-title">Papers</h2></div>
+            </div>
+            <div id="research-filters" class="research-filters" role="group" aria-label="Research directions"></div>
+            <p class="paper-stream-label" data-i18n="published-label">Publications</p>
+            <div class="markdown-body paper-stream" id="publications-md" aria-live="polite"></div>
+            <div id="preprints" class="paper-subsection">
+                <p class="paper-stream-label" data-i18n="preprints-label">Preprints</p>
+                <div class="markdown-body paper-stream" id="preprints-md" aria-live="polite"></div>
+            </div>
+        </section>
+
+        <section id="opensource" class="content-section opensource-section">
+            <div class="section-heading-row">
+                <div><p class="eyebrow" data-i18n="kicker-opensource">Projects</p><h2 data-i18n="opensource-title">Projects</h2></div>
+            </div>
+            <div class="project-grid">
+                <article class="project-card project-card-featured"><div class="project-topline"><span class="project-index">01</span><span class="project-status" data-i18n="public-code">Open source</span></div><h3>Scene-Designer</h3><p data-i18n="scene-description">Agentic 3D scene generation.</p><div class="project-links">
+                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/Scene-Designer" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-project" href="https://zju-omniai.github.io/Scene-Designer/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-paper" href="https://arxiv.org/abs/2610.23121" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-model" href="https://huggingface.co/XuanyuLiu/Scene-Builder-Qwen3-VL-8B-Instruct" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-model"></use></svg><span data-i18n="model-link">Model</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-dataset" href="https://huggingface.co/datasets/XuanyuLiu/Scene-OTC-Bench" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-dataset"></use></svg><span data-i18n="dataset-link">Dataset</span><span aria-hidden="true">↗</span></a>
+                </div></article>
+                <article class="project-card"><div class="project-topline"><span class="project-index">02</span><span class="project-status" data-i18n="public-code">Open source</span></div><h3>Spatial-Interactor</h3><p data-i18n="spatial-description">Spatial reasoning through interaction.</p><div class="project-links">
+                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/Spatial-Interactor" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-project" href="https://zju-omniai.github.io/Spatial-Interactor/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-paper" href="https://arxiv.org/abs/2609.23038" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-model" href="https://huggingface.co/collections/kagakouko/spatial-interactor" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-model"></use></svg><span data-i18n="artifacts-link">Models &amp; data</span><span aria-hidden="true">↗</span></a>
+                </div></article>
+                <article class="project-card"><div class="project-topline"><span class="project-index">03</span><span class="project-status" data-i18n="public-code">Open source</span></div><h3>Show, Don’t Tell</h3><p data-i18n="show-description">A benchmark for spatial cognition in generative pixels.</p><div class="project-links">
+                    <a class="action-link action-code" href="https://github.com/ZJU-OmniAI/ProVisE" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-code"></use></svg><span data-i18n="code-link">Code</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-project" href="https://zju-omniai.github.io/ProVisE/" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-project"></use></svg><span data-i18n="project-link">Project page</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-paper" href="https://arxiv.org/abs/2607.21072" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-paper"></use></svg><span>Paper</span><span aria-hidden="true">↗</span></a>
+                    <a class="action-link action-dataset" href="https://huggingface.co/datasets/wx91726/SpatialGen-Bench" target="_blank" rel="noreferrer"><svg class="action-icon" aria-hidden="true"><use href="#icon-dataset"></use></svg><span data-i18n="dataset-link">Dataset</span><span aria-hidden="true">↗</span></a>
+                </div></article>
+            </div>
+        </section>
+
+        <section id="experience" class="content-section">
+            <div class="section-heading-row"><div><p class="eyebrow" data-i18n="kicker-experience">Experience</p><h2 data-i18n="experience-title">Experience</h2></div></div>
+            <div class="markdown-body" id="internship-md" aria-live="polite"></div>
+        </section>
+
+        <section id="awards" class="content-section">
+            <div class="section-heading-row"><div><p class="eyebrow" data-i18n="kicker-awards">Honors</p><h2 data-i18n="awards-title">Honors</h2></div></div>
+            <div class="markdown-body" id="awards-md" aria-live="polite"></div>
+        </section>
+    </main>
 </body>
 
 </html>
+

@@ -13,6 +13,7 @@
 
 - **Scene-Designer: Learning Design Intelligence for Agentic 3D Scene Generation.**<br>
   Xuanyu Liu, Hongyan Feng, <strong class="self-author">Miao Pan</strong>, Sunlai Chen, Lizhou Liang, SUN Bing, Wenqi Zhang, and Xuhong Zhang.
+  [[Paper]](https://arxiv.org/abs/2610.23121) [[Project]](https://zju-omniai.github.io/Scene-Designer/) [[Code]](https://github.com/ZJU-OmniAI/Scene-Designer)
 
 - **Stabilizing RL Fine-Tuning of Diffusion VLAs with Sparse MoE Action Heads: Advantage- and Noise-Aware Load Balancing and Geometric-Mean Ratio.**<br>
   Jiarun Li<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Qiuting Yu, Yangfan Xie, Wenqi Zhang, Zicheng Liu, Jintao Chen, and Xuhong Zhang.<br>
@@ -26,11 +27,11 @@
 
 - **Spatial-Interactor: Learning Spatial Reasoning through Interaction with the Observable Physical World.**<br>
   Kaixiang Yao, Xu Wang, <strong class="self-author">Miao Pan</strong>, Hu Xiyue, Weishi Wang, Daniel Dahlmeier, Jintao Chen, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang.<br>
-  [[Paper]](https://arxiv.org/abs/2609.23038) [🌐 Project](https://zju-omniai.github.io/Spatial-Interactor/) [💻 Code](https://github.com/ZJU-OmniAI/Spatial-Interactor)
+  [[Paper]](https://arxiv.org/abs/2609.23038) [[Project]](https://zju-omniai.github.io/Spatial-Interactor/) [[Code]](https://github.com/ZJU-OmniAI/Spatial-Interactor)
 
 - **Show, Don't Tell: Evaluating Spatial Cognition in Generative Pixels Rather Than LLM Text.**<br>
   Xu Wang<sup aria-label="equal contribution">&#42;</sup>, Kaixiang Yao<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong>, Xiaohe Zhou, Xuanyu Liu, Wenqi Zhang, and Xuhong Zhang.<br>
-  [[Paper]](https://arxiv.org/abs/2607.21072) [[Code]](https://github.com/ZJU-OmniAI/ProVisE)
+  [[Paper]](https://arxiv.org/abs/2607.21072) [[Project]](https://zju-omniai.github.io/ProVisE/) [[Code]](https://github.com/ZJU-OmniAI/ProVisE)
 
 #### Computer Networks
 
