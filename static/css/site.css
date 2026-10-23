@@ -2997,3 +2997,13 @@ html[data-theme="dark"] .paper-stream .self-author {
 .paper-stream .self-author {
     font-family: inherit;
 }
+
+/* Remove the redundant Markdown break after the block-level paper title. */
+.paper-stream li > p > .paper-title-link + br {
+    display: none;
+}
+
+/* Leave a small, deliberate pause between authors and the venue badge. */
+.paper-stream li > p > em {
+    margin-top: .2rem;
+}
