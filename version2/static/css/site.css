@@ -2113,3 +2113,53 @@ body::before {
     border-color: #173b60;
     background: #173b60;
 }
+
+
+/* Use seal-only, white-background institution marks at a larger scale. */
+.cv-mark-zju,
+.cv-mark-zjsu {
+    width: 166px;
+    min-height: 106px;
+    padding: .35rem;
+    color: var(--ink);
+    border-color: #e3e3e3;
+    background: #fff;
+}
+
+.cv-mark-zju img,
+.cv-mark-zjsu img {
+    width: auto;
+    max-width: 100%;
+    max-height: 96px;
+    object-fit: contain;
+}
+
+.cv-mark-zjsu img {
+    filter: brightness(0) saturate(100%) invert(20%) sepia(24%) saturate(1716%) hue-rotate(173deg) brightness(88%) contrast(91%);
+}
+
+@media (max-width: 820px) {
+    .cv-mark-zju,
+    .cv-mark-zjsu {
+        width: 126px;
+        min-height: 94px;
+    }
+
+    .cv-mark-zju img,
+    .cv-mark-zjsu img {
+        max-height: 82px;
+    }
+}
+
+@media (max-width: 680px) {
+    .cv-mark-zju,
+    .cv-mark-zjsu {
+        width: 142px;
+        min-height: 96px;
+    }
+
+    .cv-mark-zju img,
+    .cv-mark-zjsu img {
+        max-height: 86px;
+    }
+}

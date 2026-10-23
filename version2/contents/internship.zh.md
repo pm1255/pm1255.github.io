@@ -2,7 +2,7 @@
   <h3 class="cv-subheading">教育经历</h3>
   <div class="cv-list" aria-label="教育经历">
     <article class="cv-entry">
-      <a class="cv-mark cv-mark-zju" href="https://www.zju.edu.cn/" aria-label="浙江大学"><img src="static/assets/img/zju-official.png" alt="浙江大学" width="318" height="253" loading="lazy"></a>
+      <a class="cv-mark cv-mark-zju" href="https://www.zju.edu.cn/" aria-label="浙江大学"><img src="static/assets/img/zju-seal.png" alt="浙江大学" width="220" height="220" loading="lazy"></a>
       <div class="cv-body">
         <h4><a href="https://www.zju.edu.cn/">浙江大学</a></h4>
         <p class="cv-role">软件工程专业博士研究生</p>
@@ -11,7 +11,7 @@
       <p class="cv-date">2023 – 2028</p>
     </article>
     <article class="cv-entry">
-      <a class="cv-mark cv-mark-zjsu" href="https://www.zjgsu.edu.cn/" aria-label="浙江工商大学"><img src="static/assets/img/zjsu-official.png" alt="浙江工商大学" width="300" height="77" loading="lazy"></a>
+      <a class="cv-mark cv-mark-zjsu" href="https://www.zjgsu.edu.cn/" aria-label="浙江工商大学"><img src="static/assets/img/zjsu-seal.png" alt="浙江工商大学" width="77" height="77" loading="lazy"></a>
       <div class="cv-body">
         <h4><a href="https://www.zjgsu.edu.cn/">浙江工商大学</a></h4>
         <p class="cv-role">数据科学与大数据技术专业工学学士</p>

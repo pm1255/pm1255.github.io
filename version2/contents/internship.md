@@ -2,7 +2,7 @@
   <h3 class="cv-subheading">Education</h3>
   <div class="cv-list" aria-label="Education">
     <article class="cv-entry">
-      <a class="cv-mark cv-mark-zju" href="https://www.zju.edu.cn/" aria-label="Zhejiang University"><img src="static/assets/img/zju-official.png" alt="Zhejiang University" width="318" height="253" loading="lazy"></a>
+      <a class="cv-mark cv-mark-zju" href="https://www.zju.edu.cn/" aria-label="Zhejiang University"><img src="static/assets/img/zju-seal.png" alt="Zhejiang University" width="220" height="220" loading="lazy"></a>
       <div class="cv-body">
         <h4><a href="https://www.zju.edu.cn/">Zhejiang University</a></h4>
         <p class="cv-role">Ph.D. student in Software Engineering</p>
@@ -11,7 +11,7 @@
       <p class="cv-date">2023 – 2028</p>
     </article>
     <article class="cv-entry">
-      <a class="cv-mark cv-mark-zjsu" href="https://www.zjgsu.edu.cn/" aria-label="Zhejiang Gongshang University"><img src="static/assets/img/zjsu-official.png" alt="Zhejiang Gongshang University" width="300" height="77" loading="lazy"></a>
+      <a class="cv-mark cv-mark-zjsu" href="https://www.zjgsu.edu.cn/" aria-label="Zhejiang Gongshang University"><img src="static/assets/img/zjsu-seal.png" alt="Zhejiang Gongshang University" width="77" height="77" loading="lazy"></a>
       <div class="cv-body">
         <h4><a href="https://www.zjgsu.edu.cn/">Zhejiang Gongshang University</a></h4>
         <p class="cv-role">B.E. in Data Science and Big Data Technology</p>
