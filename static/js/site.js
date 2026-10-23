@@ -1,5 +1,5 @@
 const contentDir = 'contents/'
-const contentVersion = 'cv20261023k'
+const contentVersion = 'cv20261023l'
 const sectionNames = ['home', 'papers', 'internship', 'awards']
 const localizedSections = new Set(['home', 'internship', 'awards'])
 const supportedLanguages = new Set(['en', 'zh'])
@@ -209,6 +209,8 @@ function createActionIcon(type) {
 }
 
 function decorateActionLinks(root) {
+    if (!root.classList.contains('paper-stream')) return
+
     root.querySelectorAll('a').forEach(link => {
         if (link.querySelector('.action-icon')) return
 
@@ -306,7 +308,8 @@ async function renderLanguage(language) {
         const target = document.getElementById(`${sectionName}-md`)
         if (!target) return
 
-        target.innerHTML = marked.parse(contents[index])
+        const shouldUseRawHtml = sectionName === 'internship' || sectionName === 'awards'
+        target.innerHTML = shouldUseRawHtml ? contents[index] : marked.parse(contents[index])
         decorateActionLinks(target)
         if (target.id === 'papers-md') {
             decoratePaperTitles(target)
