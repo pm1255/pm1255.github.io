@@ -1,4 +1,5 @@
 const contentDir = 'contents/'
+const contentVersion = 'cv20261023j'
 const sectionNames = ['home', 'papers', 'internship', 'awards']
 const localizedSections = new Set(['home', 'internship', 'awards'])
 const supportedLanguages = new Set(['en', 'zh'])
@@ -161,7 +162,7 @@ function getContentFile(sectionName, language) {
 }
 
 async function fetchText(filename) {
-    const response = await fetch(contentDir + filename)
+    const response = await fetch(`${contentDir}${filename}?v=${contentVersion}`)
     if (!response.ok) throw new Error(`Unable to load ${filename}: ${response.status}`)
     return response.text()
 }
