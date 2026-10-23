@@ -1930,6 +1930,30 @@ body::before {
     font-weight: inherit;
 }
 
+/* Markdown wraps most publication rows in a paragraph, so style that title path too. */
+.paper-stream li > p {
+    margin: 0;
+}
+
+.paper-stream li > p > .paper-title-link,
+.paper-stream li > p > .paper-title-link strong,
+.paper-stream li .paper-title-link {
+    display: block;
+    margin-bottom: .16rem;
+    color: #111016 !important;
+    font-family: Newsreader, Georgia, serif;
+    font-size: clamp(1.12rem, 1.5vw, 1.42rem);
+    font-weight: 600;
+    letter-spacing: -.015em;
+    line-height: 1.24;
+}
+
+.paper-stream li > p > .paper-title-link:hover,
+.paper-stream li > p > .paper-title-link:hover strong,
+.paper-stream li .paper-title-link:hover {
+    color: #111016 !important;
+}
+
 .news-event {
     font-size: clamp(1rem, 1.18vw, 1.25rem);
 }
