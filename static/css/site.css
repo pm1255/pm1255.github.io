@@ -1998,3 +1998,18 @@ body::before {
 .news-event .news-detail + .news-detail {
     margin-top: .18rem;
 }
+
+/* Paper visuals: use clean square thumbnails without a card frame. */
+.paper-thumb {
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+}
+
+.paper-thumb img {
+    padding: 0;
+    object-fit: contain;
+    background: transparent;
+}
