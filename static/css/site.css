@@ -2473,3 +2473,120 @@ body::before {
         padding: .5rem 0 .58rem;
     }
 }
+
+/* Paper typography: make titles the visual anchor and remove ornamental row rules. */
+.paper-stream li {
+    border-top: 0;
+    border-bottom: 0;
+    color: #4d4952;
+    font-size: clamp(.86rem, .95vw, 1rem);
+}
+
+.paper-stream li > strong,
+.paper-stream li > .paper-title-link,
+.paper-stream li > .paper-title-link strong {
+    color: #111016 !important;
+    font-size: clamp(1.12rem, 1.5vw, 1.42rem);
+    font-weight: 600;
+    line-height: 1.24;
+}
+
+.paper-stream li > .paper-title-link:hover,
+.paper-stream li > .paper-title-link:hover strong {
+    color: #111016 !important;
+}
+
+.paper-stream .self-author {
+    color: #111016;
+    font-weight: 700;
+}
+
+/* Final layout pass: let the introduction wrap naturally around a smaller portrait. */
+.profile-hero {
+    display: block;
+    min-height: 0;
+    padding-block: 3.15rem 3.7rem;
+}
+
+.profile-title {
+    margin-bottom: .72rem;
+}
+
+.profile-portrait {
+    float: right;
+    width: min(22vw, 240px);
+    max-width: 240px;
+    margin: 0 0 1rem 2.25rem;
+}
+
+.profile-copy {
+    max-width: none;
+}
+
+.profile-links {
+    clear: both;
+}
+
+/* The section keeps its internal Education and Research Experience subheads. */
+.cv-section-experience {
+    padding-top: 2.25rem;
+}
+
+/* Keep the content airy without drawing a rule between every module or entry. */
+.content-section {
+    border-bottom: 0;
+}
+
+.cv-entry,
+.cv-entry:last-child,
+.cv-section .cv-block + .cv-block {
+    border-top: 0;
+    border-bottom: 0;
+}
+
+/* News is a compact timeline rather than a widely spaced list. */
+.news-list li {
+    min-height: 0;
+    padding-block: .34rem;
+}
+
+.news-event,
+.news-event p {
+    line-height: 1.25;
+}
+
+.news-list time {
+    line-height: 1.25;
+}
+
+/* Keep every author at the same weight/color while paper titles remain black. */
+.paper-stream .self-author {
+    color: inherit;
+    font-weight: inherit;
+}
+
+@media (max-width: 680px) {
+    .profile-hero {
+        display: block;
+        padding-block: 2.35rem 2.9rem;
+    }
+
+    .profile-portrait {
+        float: none;
+        width: 160px;
+        max-width: 160px;
+        margin: 0 auto 1.15rem;
+    }
+
+    .profile-links {
+        margin-top: 1rem;
+    }
+
+    .cv-section-experience {
+        padding-top: 1.65rem;
+    }
+
+    .news-list li {
+        padding-block: .28rem;
+    }
+}
