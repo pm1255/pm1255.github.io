@@ -202,7 +202,7 @@ function decorateActionLinks(root) {
             .toLowerCase()
 
         let type = null
-        if (label.startsWith('paper')) type = 'paper'
+        if (label.startsWith('paper') || label.startsWith('daily paper')) type = 'paper'
         else if (label.startsWith('presentation')) type = 'presentation'
         else if (label.startsWith('project')) type = 'project'
         else if (label.startsWith('code')) type = 'code'
@@ -212,9 +212,11 @@ function decorateActionLinks(root) {
 
         if (!type) return
         link.classList.add('action-link', `action-${type}`)
-        const visibleLabel = type === 'model' && label.startsWith('models')
-            ? 'Models & data'
-            : type.charAt(0).toUpperCase() + type.slice(1)
+        const visibleLabel = type === 'paper' && label.startsWith('daily paper')
+            ? 'Daily Paper'
+            : type === 'model' && label.startsWith('models')
+                ? 'Models & data'
+                : type.charAt(0).toUpperCase() + type.slice(1)
         link.textContent = visibleLabel
         link.target = '_blank'
         link.rel = 'noreferrer'
