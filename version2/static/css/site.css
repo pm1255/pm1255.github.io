@@ -1979,3 +1979,22 @@ body::before {
         height: 3.8rem;
     }
 }
+
+/* Keep the desktop composition centered with roughly one third of the row
+   reserved as outer whitespace, while retaining the mobile widths above. */
+@media (min-width: 1101px) {
+    .site-header,
+    .page,
+    .site-footer {
+        width: min(66.6667vw, 1240px);
+    }
+}
+
+.news-event .news-detail {
+    display: block;
+    margin: .14rem 0 0;
+}
+
+.news-event .news-detail + .news-detail {
+    margin-top: .18rem;
+}
