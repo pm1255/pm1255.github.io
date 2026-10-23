@@ -2719,6 +2719,57 @@ body::before {
     }
 }
 
+
+/* Final CV and paper type pass. */
+.cv-entry {
+    grid-template-columns: 170px minmax(0, 1fr) max-content;
+    gap: clamp(.8rem, 1.8vw, 1.55rem);
+}
+
+.cv-block-experience .cv-entry {
+    grid-template-columns: 170px minmax(0, 1fr);
+}
+
+.cv-date {
+    font-size: clamp(1rem, 1.15vw, 1.2rem);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.cv-detail {
+    max-width: none;
+    line-height: 1.36;
+}
+
+.paper-stream li > p {
+    font-family: "Avenir Next", "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: clamp(.98rem, 1.08vw, 1.1rem);
+}
+
+.paper-stream .self-author {
+    color: inherit;
+    font-family: inherit;
+    font-weight: 700;
+}
+
+.paper-stream .action-link {
+    font-size: .78rem;
+}
+
+@media (max-width: 680px) {
+    .cv-block-experience .cv-entry {
+        grid-template-columns: minmax(0, 1fr);
+    }
+
+    .paper-stream li > p {
+        font-size: .98rem;
+    }
+
+    .paper-stream .action-link {
+        font-size: .74rem;
+    }
+}
+
 /* Theme toggle: preserve the light editorial palette while giving the dark
    mode its own readable surface and rainy atmosphere. */
 html[data-theme="dark"] {
@@ -2896,4 +2947,48 @@ html[data-theme="dark"] .paper-stream li em {
     color: var(--accent-dark);
     border-color: #654e83;
     background: rgba(45, 35, 65, .86);
+}
+
+/* Paper type hierarchy: authors sit between body copy and the larger title. */
+.paper-stream li {
+    font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: clamp(.96rem, 1.02vw, 1.1rem);
+}
+
+.paper-stream li > strong,
+.paper-stream li > .paper-title-link,
+.paper-stream li > .paper-title-link strong,
+.paper-stream li > p > .paper-title-link,
+.paper-stream li > p > .paper-title-link strong,
+.paper-stream li .paper-title-link {
+    color: #111016 !important;
+    font-family: Newsreader, Georgia, serif;
+    font-size: clamp(1.14rem, 1.5vw, 1.42rem);
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.paper-stream .self-author {
+    color: #111016;
+    font-family: "DM Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: inherit;
+    font-weight: 700 !important;
+}
+
+.paper-stream .action-paper,
+.paper-stream .action-code {
+    font-size: clamp(.78rem, .92vw, .92rem);
+}
+
+html[data-theme="dark"] .paper-stream li > strong,
+html[data-theme="dark"] .paper-stream li > .paper-title-link,
+html[data-theme="dark"] .paper-stream li > .paper-title-link strong,
+html[data-theme="dark"] .paper-stream li > p > .paper-title-link,
+html[data-theme="dark"] .paper-stream li > p > .paper-title-link strong,
+html[data-theme="dark"] .paper-stream li .paper-title-link {
+    color: var(--ink) !important;
+}
+
+html[data-theme="dark"] .paper-stream .self-author {
+    color: var(--ink);
 }

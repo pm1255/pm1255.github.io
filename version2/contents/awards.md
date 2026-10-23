@@ -2,7 +2,6 @@
   <h3 class="cv-subheading">Professional Service</h3>
   <ul class="service-list" aria-label="Professional service">
     <li>Conference Reviewer: ICLR</li>
-    <li>Open-source contributor: <a href="https://github.com/ZJU-OmniAI/Scene-Designer">Scene-Designer</a>, <a href="https://github.com/ZJU-OmniAI/Spatial-Interactor">Spatial-Interactor</a>, and <a href="https://github.com/ZJU-OmniAI/ProVisE">ProVisE</a>.</li>
   </ul>
 </div>
 

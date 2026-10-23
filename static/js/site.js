@@ -1,5 +1,5 @@
 const contentDir = 'contents/'
-const contentVersion = 'cv20261023v'
+const contentVersion = 'cv20261023w'
 const sectionNames = ['home', 'papers', 'internship', 'awards']
 const localizedSections = new Set(['home', 'internship', 'awards'])
 const supportedLanguages = new Set(['en', 'zh'])

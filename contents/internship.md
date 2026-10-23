@@ -34,7 +34,6 @@
         <p class="cv-role">Algorithm Research Intern</p>
         <p class="cv-detail">Embodied AI data closed-loop algorithms, connecting data curation with reliable robot learning.</p>
       </div>
-      <p class="cv-date">September 2026 – Present</p>
     </article>
   </div>
 </div>

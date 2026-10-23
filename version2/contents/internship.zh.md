@@ -34,7 +34,6 @@
         <p class="cv-role">算法实习生</p>
         <p class="cv-detail">具身智能数据闭环算法，连接数据整理与可靠的机器人学习。</p>
       </div>
-      <p class="cv-date">2026 年 9 月至今</p>
     </article>
   </div>
 </div>
