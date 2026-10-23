@@ -2992,3 +2992,8 @@ html[data-theme="dark"] .paper-stream li .paper-title-link {
 html[data-theme="dark"] .paper-stream .self-author {
     color: var(--ink);
 }
+
+/* Keep the highlighted author in the same typeface as the rest of the author line. */
+.paper-stream .self-author {
+    font-family: inherit;
+}
