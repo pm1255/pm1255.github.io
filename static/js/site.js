@@ -1,5 +1,5 @@
 const contentDir = 'contents/'
-const contentVersion = 'cv20261023r'
+const contentVersion = 'cv20261023s'
 const sectionNames = ['home', 'papers', 'internship', 'awards']
 const localizedSections = new Set(['home', 'internship', 'awards'])
 const supportedLanguages = new Set(['en', 'zh'])
@@ -132,28 +132,6 @@ const copy = {
 }
 
 
-const paperVisuals = [
-    ['vla-δ', 'https://arxiv.org/html/2610.21306v1/2-method.png'],
-    ['vla-corrector', 'https://zju-omniai.github.io/vla-corrector/assets/images/method_overview.png'],
-    ['scene-designer', 'https://arxiv.org/html/2610.23121v1/fig4.png'],
-    ['spatial-interactor', 'https://arxiv.org/html/2609.23038v2/fig7_manual_preview/updated_figures/fig1_overview.png'],
-    ['show,', 'https://arxiv.org/html/2607.21072v1/img/protocolized_visual_evaluation_v4.png'],
-    ['mitigating manifold', 'static/assets/img/papers/icml-manifold-combined.png'],
-    ['verirl', 'https://paper-assets.alphaxiv.org/figures/2508.18462v1/x2.png'],
-    ['ground what you see', 'https://raw.githubusercontent.com/ZJU-OmniAI/OMNEX-VL/main/method.png'],
-    ['gft:', 'https://images.emergentmind.com/paper-images/2604-14258/method2.png'],
-    ['ragfort', 'https://api-rsrc.hyper.ai/paper2blog/40432/e80d66ba-d87c-4141-82db-0d7e033da6b6/mineru/canonical_resources/figure_2.png'],
-    ['do not merge', 'https://arxiv.org/html/2511.10712v2/method_fig.jpg'],
-    ['online sampling of the wiener', 'static/assets/img/papers/infocom-wiener-ppt.png'],
-    ['sampling the ornstein', 'static/assets/img/papers/infocom-ou-ppt.png'],
-    ['embodied-navigator', 'https://zju-omniai.github.io/Embodied-Navigator/img/architecture.png'],
-    ['embodiedmemory', 'https://zju-omniai.github.io/Embodied-Omni/EmbodiedMemoryBench/assets/architecture.png'],
-    ['sare:', 'https://arxiv.org/html/2603.17729v3/overview4.png'],
-    ['rubrics4vla', 'static/assets/img/papers/rubrics4vla-method.png'],
-    ['stabilizing rl', 'static/assets/img/papers/moe-vla-rl-method.png'],
-    ['fractional reinforcement', 'static/assets/img/papers/fractional-rl-method.png'],
-]
-
 const paperCategoryRules = [
     { key: 'networks', matches: ['regret-optimal', 'sampling the ornstein', 'fractional reinforcement'] },
     { key: 'trust', matches: ['ragfort', 'do not merge'] },
@@ -283,41 +261,6 @@ function decoratePaperTitles(root) {
     })
 }
 
-function decoratePaperVisuals(root) {
-    root.querySelectorAll('li').forEach(item => {
-        if (item.querySelector('.paper-thumb')) return
-
-        const titleNode = item.querySelector('strong')
-        const title = titleNode?.textContent.trim().toLowerCase() || ''
-        const visual = paperVisuals.find(([match]) => title.includes(match))
-
-        const thumb = document.createElement('span')
-        thumb.className = 'paper-thumb'
-
-        const fallback = document.createElement('span')
-        fallback.className = 'paper-thumb-fallback'
-        fallback.textContent = 'METHOD'
-
-        if (visual) {
-            const image = document.createElement('img')
-            image.src = visual[1]
-            const visualLabel = visual[1].includes('ppt') ? 'Presentation slide for' : 'Method overview for'
-            image.alt = `${visualLabel} ${titleNode?.textContent.trim() || 'paper'}`
-            image.loading = 'lazy'
-            image.referrerPolicy = 'no-referrer'
-            image.addEventListener('error', () => {
-                image.hidden = true
-                thumb.classList.add('is-fallback')
-            })
-            thumb.appendChild(image)
-        }
-
-        thumb.appendChild(fallback)
-
-        item.prepend(thumb)
-    })
-}
-
 function setupPaperFilters(language) {
     const bar = document.querySelector('.paper-filter-bar')
     const root = document.getElementById('papers-md')
@@ -376,7 +319,6 @@ async function renderLanguage(language) {
         decorateActionLinks(target)
         if (target.id === 'papers-md') {
             decoratePaperTitles(target)
-            decoratePaperVisuals(target)
         }
     })
 

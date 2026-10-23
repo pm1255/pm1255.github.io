@@ -2444,3 +2444,32 @@ body::before {
         margin-top: 1rem;
     }
 }
+
+/* Minimal header and text-only paper list. */
+.site-header {
+    grid-template-columns: 1fr auto;
+}
+
+.top-nav {
+    justify-content: flex-start;
+}
+
+.paper-count,
+.paper-thumb {
+    display: none !important;
+}
+
+.paper-stream li {
+    min-height: 0;
+    padding: .62rem 0 .68rem;
+}
+
+@media (max-width: 680px) {
+    .site-header {
+        grid-template-columns: 1fr auto;
+    }
+
+    .paper-stream li {
+        padding: .5rem 0 .58rem;
+    }
+}
