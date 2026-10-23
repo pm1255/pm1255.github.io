@@ -11,7 +11,7 @@
       <p class="cv-date">2023 – 2028</p>
     </article>
     <article class="cv-entry">
-      <a class="cv-mark cv-mark-zjsu" href="https://www.zjgsu.edu.cn/" aria-label="Zhejiang Gongshang University"><img src="static/assets/img/zjsu-seal.png" alt="Zhejiang Gongshang University" width="77" height="77" loading="lazy"></a>
+      <a class="cv-mark cv-mark-zjsu" href="https://www.zjgsu.edu.cn/" aria-label="Zhejiang Gongshang University"><img src="static/assets/img/zjsu-seal.png" alt="Zhejiang Gongshang University" width="327" height="327" loading="lazy"></a>
       <div class="cv-body">
         <h4><a href="https://www.zjgsu.edu.cn/">Zhejiang Gongshang University</a></h4>
         <p class="cv-role">B.E. in Data Science and Big Data Technology</p>

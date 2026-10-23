@@ -1,5 +1,5 @@
 const contentDir = 'contents/'
-const contentVersion = 'cv20261023p'
+const contentVersion = 'cv20261023q'
 const sectionNames = ['home', 'papers', 'internship', 'awards']
 const localizedSections = new Set(['home', 'internship', 'awards'])
 const supportedLanguages = new Set(['en', 'zh'])
@@ -36,21 +36,27 @@ const copy = {
         'date-11': 'Nov 8, 2025',
         'date-12': 'Oct 29, 2025',
         'date-13': 'Jun 30, 2025',
-        'update-1': 'VLA-Δ is now online with its project page, code, and model resources.',
-        'update-2': 'VLA-Corrector was accepted to NeurIPS 2026.',
-        'update-3': 'Wiener Sampling was presented orally at INFOCOM 2026 in Tokyo, Japan.',
-        'update-4': 'OU Sampling was presented orally at INFOCOM 2026 in Tokyo, Japan.',
-        'update-5': 'Manifold Departure was accepted to ICML 2026.',
-        'update-6': 'GFT was accepted to ACL Findings 2026.',
-        'update-7': 'Wiener Sampling was accepted to INFOCOM 2026.',
-        'update-8': 'OU Sampling was accepted to INFOCOM 2026.',
-        'update-9': 'Ground What You See was accepted to AAAI 2026.',
-        'update-10': 'RAGFort was accepted to AAAI 2026.',
-        'update-11': 'Do Not Merge My Model was accepted to AAAI 2026.',
-        'update-12': 'VERIRL was presented orally in Room Barcelona at ICCAD 2025 in Munich, Germany.',
-        'update-13': 'VERIRL was accepted to ICCAD 2025.',
+        'update-1': 'is now online with its project page, code, and model resources.',
+        'update-2': 'was accepted to NeurIPS 2026.',
+        'update-3': 'was presented orally at INFOCOM 2026 in Tokyo, Japan.',
+        'update-4': 'was presented orally at INFOCOM 2026 in Tokyo, Japan.',
+        'update-5': 'was accepted to ICML 2026.',
+        'update-6': 'was accepted to ACL Findings 2026.',
+        'update-7': 'was accepted to INFOCOM 2026.',
+        'update-8': 'was accepted to INFOCOM 2026.',
+        'update-9': 'was accepted to AAAI 2026.',
+        'update-10': 'was accepted to AAAI 2026.',
+        'update-11': 'was accepted to AAAI 2026.',
+        'update-12': 'was presented orally in Room Barcelona at ICCAD 2025 in Munich, Germany.',
+        'update-13': 'was accepted to ICCAD 2025.',
         'kicker-publications': 'Research',
         'publications-title': 'Papers',
+        'paper-filter-bar': 'Paper topics',
+        'paper-filter-all': 'All',
+        'paper-filter-networks': 'Computer Networks',
+        'paper-filter-trust': 'Trustworthy AI & Security',
+        'paper-filter-agents': 'Multimodal Agents & RL',
+        'paper-filter-embodied': 'Embodied Intelligence',
         'code-link': 'Code',
         'project-link': 'Project page',
         'model-link': 'Model',
@@ -92,21 +98,27 @@ const copy = {
         'date-11': '2025 年 11 月 8 日',
         'date-12': '2025 年 10 月 29 日',
         'date-13': '2025 年 6 月 30 日',
-        'update-1': 'VLA-Δ 已上线，项目主页、代码和模型资源同步公开。',
-        'update-2': 'VLA-Corrector 已被 NeurIPS 2026 录用。',
-        'update-3': 'Wiener Sampling 于 2026 年在日本东京举行的 INFOCOM 2026 上作了口头报告。',
-        'update-4': 'OU Sampling 于 2026 年在日本东京举行的 INFOCOM 2026 上作了口头报告。',
-        'update-5': 'Manifold Departure 已被 ICML 2026 录用。',
-        'update-6': 'GFT 已被 ACL Findings 2026 录用。',
-        'update-7': 'Wiener Sampling 已被 INFOCOM 2026 录用。',
-        'update-8': 'OU Sampling 已被 INFOCOM 2026 录用。',
-        'update-9': 'Ground What You See 已被 AAAI 2026 录用。',
-        'update-10': 'RAGFort 已被 AAAI 2026 录用。',
-        'update-11': 'Do Not Merge My Model 已被 AAAI 2026 录用。',
-        'update-12': 'VERIRL 在德国慕尼黑举行的 ICCAD 2025 上于 Barcelona 会议室作了口头报告。',
-        'update-13': 'VERIRL 已被 ICCAD 2025 录用。',
+        'update-1': '已上线，项目主页、代码和模型资源同步公开。',
+        'update-2': '已被 NeurIPS 2026 录用。',
+        'update-3': '于 2026 年在日本东京举行的 INFOCOM 2026 上作了口头报告。',
+        'update-4': '于 2026 年在日本东京举行的 INFOCOM 2026 上作了口头报告。',
+        'update-5': '已被 ICML 2026 录用。',
+        'update-6': '已被 ACL Findings 2026 录用。',
+        'update-7': '已被 INFOCOM 2026 录用。',
+        'update-8': '已被 INFOCOM 2026 录用。',
+        'update-9': '已被 AAAI 2026 录用。',
+        'update-10': '已被 AAAI 2026 录用。',
+        'update-11': '已被 AAAI 2026 录用。',
+        'update-12': '在德国慕尼黑举行的 ICCAD 2025 上于 Barcelona 会议室作了口头报告。',
+        'update-13': '已被 ICCAD 2025 录用。',
         'kicker-publications': '研究',
         'publications-title': '论文',
+        'paper-filter-bar': '论文领域',
+        'paper-filter-all': '全部',
+        'paper-filter-networks': '计算机网络',
+        'paper-filter-trust': '可信人工智能与安全',
+        'paper-filter-agents': '多模态智能体与强化学习',
+        'paper-filter-embodied': '具身智能',
         'code-link': '代码',
         'project-link': '项目主页',
         'model-link': '模型',
@@ -126,7 +138,7 @@ const paperVisuals = [
     ['scene-designer', 'https://arxiv.org/html/2610.23121v1/fig4.png'],
     ['spatial-interactor', 'https://arxiv.org/html/2609.23038v2/fig7_manual_preview/updated_figures/fig1_overview.png'],
     ['show,', 'https://arxiv.org/html/2607.21072v1/img/protocolized_visual_evaluation_v4.png'],
-    ['mitigating manifold', 'https://arxiv.org/html/2606.09859v1/Structure_v3.png'],
+    ['mitigating manifold', 'static/assets/img/papers/icml-manifold-combined.png'],
     ['verirl', 'https://paper-assets.alphaxiv.org/figures/2508.18462v1/x2.png'],
     ['ground what you see', 'https://raw.githubusercontent.com/ZJU-OmniAI/OMNEX-VL/main/method.png'],
     ['gft:', 'https://images.emergentmind.com/paper-images/2604-14258/method2.png'],
@@ -140,6 +152,13 @@ const paperVisuals = [
     ['rubrics4vla', 'static/assets/img/papers/rubrics4vla-method.png'],
     ['stabilizing rl', 'static/assets/img/papers/moe-vla-rl-method.png'],
     ['fractional reinforcement', 'static/assets/img/papers/fractional-rl-method.png'],
+]
+
+const paperCategoryRules = [
+    { key: 'networks', matches: ['regret-optimal', 'sampling the ornstein', 'fractional reinforcement'] },
+    { key: 'trust', matches: ['ragfort', 'do not merge'] },
+    { key: 'agents', matches: ['mitigating manifold', 'gft:', 'ground what you see', 'verirl', 'sare:', 'spatial-interactor', 'show,'] },
+    { key: 'embodied', matches: ['vla-corrector', 'vla-δ', 'embodied-navigator', 'rubrics4vla', 'embodiedmemory', 'scene-designer', 'stabilizing rl'] },
 ]
 
 let renderSequence = 0
@@ -299,6 +318,47 @@ function decoratePaperVisuals(root) {
     })
 }
 
+function setupPaperFilters(language) {
+    const bar = document.querySelector('.paper-filter-bar')
+    const root = document.getElementById('papers-md')
+    if (!bar || !root) return
+
+    const items = [...root.querySelectorAll(':scope > ul > li')]
+    const buttons = [...bar.querySelectorAll('[data-paper-filter]')]
+    const countNode = bar.querySelector('.paper-count')
+
+    items.forEach(item => {
+        const title = item.querySelector('strong')?.textContent.trim().toLowerCase() || ''
+        const rule = paperCategoryRules.find(candidate => candidate.matches.some(match => title.includes(match)))
+        item.dataset.paperCategory = rule?.key || 'agents'
+    })
+
+    const update = selected => {
+        let visible = 0
+        items.forEach(item => {
+            const show = selected === 'all' || item.dataset.paperCategory === selected
+            item.hidden = !show
+            if (show) visible += 1
+        })
+        buttons.forEach(button => {
+            const active = button.dataset.paperFilter === selected
+            button.classList.toggle('is-active', active)
+            button.setAttribute('aria-pressed', String(active))
+        })
+        if (countNode) {
+            countNode.textContent = language === 'zh'
+                ? `${visible} 篇论文`
+                : `${visible} ${visible === 1 ? 'paper' : 'papers'}`
+        }
+    }
+
+    buttons.forEach(button => {
+        button.onclick = () => update(button.dataset.paperFilter)
+    })
+    const active = buttons.find(button => button.getAttribute('aria-pressed') === 'true')?.dataset.paperFilter || 'all'
+    update(active)
+}
+
 async function renderLanguage(language) {
     const currentRender = ++renderSequence
     applyInterfaceLanguage(language)
@@ -319,6 +379,8 @@ async function renderLanguage(language) {
             decoratePaperVisuals(target)
         }
     })
+
+    setupPaperFilters(language)
 }
 
 function saveLanguage(language) {

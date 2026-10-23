@@ -11,7 +11,7 @@
       <p class="cv-date">2023 – 2028</p>
     </article>
     <article class="cv-entry">
-      <a class="cv-mark cv-mark-zjsu" href="https://www.zjgsu.edu.cn/" aria-label="浙江工商大学"><img src="static/assets/img/zjsu-seal.png" alt="浙江工商大学" width="77" height="77" loading="lazy"></a>
+      <a class="cv-mark cv-mark-zjsu" href="https://www.zjgsu.edu.cn/" aria-label="浙江工商大学"><img src="static/assets/img/zjsu-seal.png" alt="浙江工商大学" width="327" height="327" loading="lazy"></a>
       <div class="cv-body">
         <h4><a href="https://www.zjgsu.edu.cn/">浙江工商大学</a></h4>
         <p class="cv-role">数据科学与大数据技术专业工学学士</p>
