@@ -1,8 +1,11 @@
 const contentDir = 'contents/'
-const contentVersion = 'cv20261023u'
+const contentVersion = 'cv20261023v'
 const sectionNames = ['home', 'papers', 'internship', 'awards']
 const localizedSections = new Set(['home', 'internship', 'awards'])
 const supportedLanguages = new Set(['en', 'zh'])
+const supportedThemes = new Set(['light', 'dark'])
+
+let activeLanguage = 'en'
 
 const copy = {
     en: {
@@ -20,6 +23,7 @@ const copy = {
         'language-en': 'EN',
         'language-zh': '中',
         'day-mode': 'Day',
+        'dark-mode': 'Dark',
         'kicker-profile': 'Profile',
         'news-kicker': 'Conference decisions',
         'news-title': 'News',
@@ -62,10 +66,6 @@ const copy = {
         'model-link': 'Model',
         'dataset-link': 'Dataset',
         'artifacts-link': 'Models & data',
-        'kicker-experience': 'Experience',
-        'experience-title': 'Education & Experience',
-        'kicker-awards': 'Honors',
-        'awards-title': 'Honors & Services',
     },
     zh: {
         title: '潘淼 · Miao Pan',
@@ -82,6 +82,7 @@ const copy = {
         'language-en': 'EN',
         'language-zh': '中',
         'day-mode': '白天',
+        'dark-mode': '暗色',
         'kicker-profile': '个人简介',
         'news-kicker': '会议录用',
         'news-title': '动态',
@@ -124,10 +125,6 @@ const copy = {
         'model-link': '模型',
         'dataset-link': '数据集',
         'artifacts-link': '模型与数据',
-        'kicker-experience': '经历',
-        'experience-title': '教育与经历',
-        'kicker-awards': '荣誉',
-        'awards-title': '荣誉与服务',
     },
 }
 
@@ -155,6 +152,67 @@ function getInitialLanguage() {
     return 'en'
 }
 
+function getInitialTheme() {
+    try {
+        const savedTheme = window.localStorage.getItem('homepage-theme')
+        if (supportedThemes.has(savedTheme)) return savedTheme
+    } catch (error) {
+        console.info('Theme preference is unavailable:', error)
+    }
+
+    return 'light'
+}
+
+function updateThemeControl(theme) {
+    const button = document.querySelector('.day-toggle')
+    if (!button) return
+
+    const isDark = theme === 'dark'
+    const icon = button.querySelector('.day-toggle-icon')
+    const label = button.querySelector('[data-theme-label]') || button.querySelector('[data-i18n="day-mode"]')
+    const languageCopy = copy[activeLanguage] || copy.en
+
+    if (icon) icon.textContent = isDark ? '☾' : '☼'
+    if (label) {
+        label.textContent = isDark ? languageCopy['dark-mode'] : languageCopy['day-mode']
+        label.setAttribute('data-i18n', isDark ? 'dark-mode' : 'day-mode')
+    }
+    button.setAttribute('aria-pressed', String(isDark))
+    button.setAttribute('aria-label', isDark
+        ? (activeLanguage === 'zh' ? '切换到白天模式' : 'Switch to day mode')
+        : (activeLanguage === 'zh' ? '切换到暗色模式' : 'Switch to dark mode'))
+    button.classList.toggle('is-dark', isDark)
+}
+
+function applyTheme(theme, persist = false) {
+    const nextTheme = supportedThemes.has(theme) ? theme : 'light'
+    document.documentElement.dataset.theme = nextTheme
+    document.body?.setAttribute('data-theme', nextTheme)
+
+    const themeColor = document.querySelector('meta[name="theme-color"]')
+    if (themeColor) themeColor.setAttribute('content', nextTheme === 'dark' ? '#181323' : '#fffaff')
+    updateThemeControl(nextTheme)
+
+    if (persist) {
+        try {
+            window.localStorage.setItem('homepage-theme', nextTheme)
+        } catch (error) {
+            console.info('Theme preference could not be saved:', error)
+        }
+    }
+}
+
+function setupTheme() {
+    const button = document.querySelector('.day-toggle')
+    if (!button) return
+
+    applyTheme(getInitialTheme())
+    button.addEventListener('click', () => {
+        const currentTheme = document.documentElement.dataset.theme || 'light'
+        applyTheme(currentTheme === 'dark' ? 'light' : 'dark', true)
+    })
+}
+
 function getContentFile(sectionName, language) {
     const suffix = language === 'zh' && localizedSections.has(sectionName) ? '.zh' : ''
     return `${sectionName}${suffix}.md`
@@ -167,6 +225,7 @@ async function fetchText(filename) {
 }
 
 function applyInterfaceLanguage(language) {
+    activeLanguage = language
     const languageCopy = copy[language]
     document.documentElement.lang = language === 'zh' ? 'zh-CN' : 'en'
     document.title = languageCopy.title
@@ -191,6 +250,8 @@ function applyInterfaceLanguage(language) {
         button.classList.toggle('is-active', isActive)
         button.setAttribute('aria-pressed', String(isActive))
     })
+
+    updateThemeControl(document.documentElement.dataset.theme || 'light')
 }
 
 function createActionIcon(type) {
@@ -357,6 +418,7 @@ function setupNavigation() {
 
 window.addEventListener('DOMContentLoaded', () => {
     if (window.marked) marked.use({ mangle: false, headerIds: false })
+    setupTheme()
     setupNavigation()
 
     document.querySelectorAll('.language-option').forEach(button => {

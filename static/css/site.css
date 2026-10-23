@@ -1041,7 +1041,6 @@ button {
         flex-wrap: wrap;
     }
 }
-
 @media (prefers-reduced-motion: reduce) {
     html {
         scroll-behavior: auto;
@@ -2613,4 +2612,288 @@ body::before {
     .news-list li {
         padding-block: .28rem;
     }
+}
+
+/* Tighter section rhythm and a wider outer margin for the long-form page. */
+.content-section {
+    padding-block: 2.45rem;
+}
+
+.profile-hero {
+    padding-block: 2.6rem 3rem;
+}
+
+.section-heading-row,
+.news-section .section-heading-row,
+.cv-section .section-heading-row {
+    margin-bottom: 1.05rem;
+}
+
+.cv-section-experience,
+.cv-section-awards {
+    padding-top: 1.8rem;
+}
+
+.cv-section + .cv-section {
+    padding-top: 1.65rem;
+}
+
+/* Education and Research Experience are the visible headings of this CV block. */
+.cv-section-experience .cv-subheading {
+    margin-bottom: .62rem;
+    color: #111016;
+    font-family: Newsreader, Georgia, "Times New Roman", serif;
+    font-size: clamp(1.55rem, 2.25vw, 2.05rem);
+    font-weight: 600;
+    letter-spacing: -.035em;
+    line-height: 1.1;
+}
+
+.cv-section-experience .cv-subheading:not(:first-child) {
+    margin-top: 1.45rem;
+}
+
+/* Meeting and publication decisions read as compact badges. */
+.paper-stream li em {
+    display: inline-block;
+    margin-top: .08rem;
+    margin-right: .3rem;
+    padding: .18rem .48rem;
+    color: var(--accent-dark);
+    border: 1px solid #e2d7f0;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .72);
+    font-size: .76rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+/* Bring the author line close to its title. */
+.paper-stream li > p {
+    line-height: 1.22;
+}
+
+.paper-stream li > p > .paper-title-link,
+.paper-stream li .paper-title-link {
+    margin-bottom: .03rem;
+    line-height: 1.16;
+}
+
+.paper-stream li > br {
+    line-height: .45;
+}
+
+.paper-stream li {
+    padding-block: .48rem .54rem;
+}
+
+@media (min-width: 1101px) {
+    .site-header,
+    .page,
+    .site-footer {
+        width: min(60vw, 1240px);
+    }
+}
+
+@media (max-width: 680px) {
+    .content-section {
+        padding-block: 1.9rem;
+    }
+
+    .profile-hero {
+        padding-block: 2rem 2.35rem;
+    }
+
+    .cv-section-experience,
+    .cv-section-awards {
+        padding-top: 1.35rem;
+    }
+
+    .cv-section + .cv-section {
+        padding-top: 1.25rem;
+    }
+
+    .paper-stream li {
+        padding-block: .4rem .46rem;
+    }
+}
+
+/* Theme toggle: preserve the light editorial palette while giving the dark
+   mode its own readable surface and rainy atmosphere. */
+html[data-theme="dark"] {
+    color-scheme: dark;
+    --paper: #171321;
+    --paper-soft: #171321;
+    --ink: #f2edf8;
+    --muted: #d0c7dc;
+    --faint: #aaa0b6;
+    --line: #3a3048;
+    --accent: #b993f4;
+    --accent-dark: #d4baff;
+    --accent-soft: #2d2341;
+    --warm: #e4a4ce;
+}
+
+html[data-theme="dark"] body {
+    color: var(--ink);
+    background:
+        radial-gradient(circle at 10% 12%, rgba(73, 56, 108, .34), transparent 25rem),
+        radial-gradient(circle at 92% 46%, rgba(65, 42, 89, .3), transparent 28rem),
+        linear-gradient(180deg, #171321 0%, #1d1728 42rem, #171321 100%);
+    transition: background-color .25s ease, color .25s ease;
+}
+
+html[data-theme="dark"] body::before {
+    opacity: .22;
+    background-image: radial-gradient(circle, rgba(189, 157, 239, .2) 1px, transparent 1.2px);
+}
+
+html[data-theme="dark"] .site-header {
+    border-bottom-color: #3a3048;
+    background: rgba(23, 19, 33, .9);
+}
+
+html[data-theme="dark"] .nav-link {
+    color: #d5cce0;
+}
+
+html[data-theme="dark"] .nav-link:hover,
+html[data-theme="dark"] .nav-link.is-active {
+    color: var(--accent);
+}
+
+html[data-theme="dark"] .day-toggle,
+html[data-theme="dark"] .language-switcher {
+    color: var(--accent);
+    border-color: #55436d;
+    background: rgba(35, 27, 49, .88);
+}
+
+html[data-theme="dark"] .day-toggle:hover,
+html[data-theme="dark"] .language-option.is-active,
+html[data-theme="dark"] .language-option:hover {
+    color: var(--accent-dark);
+    background: var(--accent-soft);
+}
+
+html[data-theme="dark"] .language-option {
+    color: #a99fb6;
+}
+
+html[data-theme="dark"] .profile-title,
+html[data-theme="dark"] .profile-bio,
+html[data-theme="dark"] .section-heading-row h2,
+html[data-theme="dark"] .news-section .section-heading-row h2,
+html[data-theme="dark"] .cv-section .section-heading-row h2,
+html[data-theme="dark"] .news-event,
+html[data-theme="dark"] .news-event p,
+html[data-theme="dark"] .cv-section .markdown-body,
+html[data-theme="dark"] .cv-subheading,
+html[data-theme="dark"] .cv-role,
+html[data-theme="dark"] .cv-detail,
+html[data-theme="dark"] .cv-section #awards-md .service-list li {
+    color: var(--ink);
+}
+
+html[data-theme="dark"] .profile-bio strong {
+    color: #fff;
+}
+
+html[data-theme="dark"] .profile-links a + a::before {
+    color: #c1b5d0;
+}
+
+html[data-theme="dark"] .news-list::before {
+    background: #56456a;
+}
+
+html[data-theme="dark"] .news-list time,
+html[data-theme="dark"] .cv-date,
+html[data-theme="dark"] .profile-portrait figcaption {
+    color: var(--faint);
+}
+
+html[data-theme="dark"] .paper-stream li {
+    color: #d0c7d9;
+}
+
+html[data-theme="dark"] .paper-stream li > strong,
+html[data-theme="dark"] .paper-stream li > .paper-title-link,
+html[data-theme="dark"] .paper-stream li > .paper-title-link strong,
+html[data-theme="dark"] .paper-stream li > p > .paper-title-link,
+html[data-theme="dark"] .paper-stream li > p > .paper-title-link strong,
+html[data-theme="dark"] .paper-stream li .paper-title-link,
+html[data-theme="dark"] .paper-stream li > .paper-title-link:hover,
+html[data-theme="dark"] .paper-stream li > .paper-title-link:hover strong,
+html[data-theme="dark"] .paper-stream li .paper-title-link:hover {
+    color: var(--ink) !important;
+}
+
+html[data-theme="dark"] .paper-stream .self-author {
+    color: inherit;
+}
+
+html[data-theme="dark"] .paper-filter,
+html[data-theme="dark"] .project-card,
+html[data-theme="dark"] .research-filter,
+html[data-theme="dark"] .paper-stream .action-link,
+html[data-theme="dark"] .project-links .action-link,
+html[data-theme="dark"] .research-tags span {
+    color: #d7cce3;
+    border-color: #4c3c60;
+    background: rgba(37, 28, 51, .88);
+}
+
+html[data-theme="dark"] .paper-filter:hover,
+html[data-theme="dark"] .paper-filter.is-active,
+html[data-theme="dark"] .paper-filter[aria-pressed="true"] {
+    color: var(--accent-dark);
+    border-color: var(--accent);
+    background: #332650;
+}
+
+html[data-theme="dark"] .project-card-featured {
+    border-color: #654e83;
+    background: linear-gradient(160deg, #2d2142 0%, #1e182b 72%);
+}
+
+html[data-theme="dark"] .paper-stream .contribution-note,
+html[data-theme="dark"] .paper-count {
+    color: var(--faint);
+}
+
+html[data-theme="dark"] .cv-mark {
+    color: var(--accent);
+}
+
+html[data-theme="dark"] .snowflake {
+    width: 2px;
+    height: 22px;
+    overflow: hidden;
+    color: transparent;
+    border-radius: 999px;
+    background: linear-gradient(180deg, transparent 0%, rgba(181, 210, 255, .9) 52%, rgba(132, 174, 239, .22) 100%);
+    text-shadow: none;
+    animation-name: rainfall;
+}
+
+@keyframes rainfall {
+    0% {
+        opacity: 0;
+        transform: translate3d(0, -8vh, 0) rotate(18deg);
+    }
+    8% {
+        opacity: .75;
+    }
+    100% {
+        opacity: .16;
+        transform: translate3d(-120px, 112vh, 0) rotate(18deg);
+    }
+}
+
+html[data-theme="dark"] .paper-stream li em {
+    color: var(--accent-dark);
+    border-color: #654e83;
+    background: rgba(45, 35, 65, .86);
 }
