@@ -1991,8 +1991,8 @@ body::before {
 }
 
 .news-event .news-detail {
-    display: block;
-    margin: .14rem 0 0;
+    display: inline;
+    margin: 0;
 }
 
 .news-event .news-detail + .news-detail {
@@ -2012,4 +2012,28 @@ body::before {
     padding: 0;
     object-fit: contain;
     background: transparent;
+}
+
+/* Keep section labels compact and let each paper read as one continuous line. */
+.section-heading-row h2,
+.news-section .section-heading-row h2,
+.cv-section .section-heading-row h2 {
+    font-size: clamp(1.85rem, 3.2vw, 2.65rem);
+}
+
+.profile-portrait figcaption {
+    display: none !important;
+}
+
+.paper-stream .self-author {
+    color: var(--accent-dark);
+    font-weight: 700;
+}
+
+@media (max-width: 680px) {
+    .section-heading-row h2,
+    .news-section .section-heading-row h2,
+    .cv-section .section-heading-row h2 {
+        font-size: 2rem;
+    }
 }
