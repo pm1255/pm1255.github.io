@@ -1,5 +1,5 @@
 const contentDir = 'contents/'
-const contentVersion = 'cv20261023l'
+const contentVersion = 'cv20261023m'
 const sectionNames = ['home', 'papers', 'internship', 'awards']
 const localizedSections = new Set(['home', 'internship', 'awards'])
 const supportedLanguages = new Set(['en', 'zh'])
@@ -132,6 +132,8 @@ const paperVisuals = [
     ['gft:', 'https://images.emergentmind.com/paper-images/2604-14258/method2.png'],
     ['ragfort', 'https://api-rsrc.hyper.ai/paper2blog/40432/e80d66ba-d87c-4141-82db-0d7e033da6b6/mineru/canonical_resources/figure_2.png'],
     ['do not merge', 'https://arxiv.org/html/2511.10712v2/method_fig.jpg'],
+    ['online sampling of the wiener', 'static/assets/img/papers/wiener-method.png'],
+    ['sampling the ornstein', 'static/assets/img/papers/ou-method.png'],
     ['embodied-navigator', 'https://zju-omniai.github.io/Embodied-Navigator/img/architecture.png'],
     ['embodiedmemory', 'https://zju-omniai.github.io/Embodied-Omni/EmbodiedMemoryBench/assets/architecture.png'],
     ['sare:', 'https://arxiv.org/html/2603.17729v3/overview4.png'],
