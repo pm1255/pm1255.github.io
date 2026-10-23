@@ -3007,3 +3007,15 @@ html[data-theme="dark"] .paper-stream .self-author {
 .paper-stream li > p > em {
     margin-top: .2rem;
 }
+
+/* Keep equal-contribution marks visible beside the authors who share credit. */
+.paper-stream sup[aria-label="equal contribution"] {
+    display: inline;
+    margin-left: .08em;
+    color: var(--accent-dark);
+    font-family: inherit;
+    font-size: .68em;
+    font-weight: 700;
+    line-height: 0;
+    vertical-align: super;
+}
