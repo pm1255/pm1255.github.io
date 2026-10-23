@@ -1,7 +1,3 @@
-- **VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models.**<br>
-  Qi Lu, Jiarun Li, Ce Zhang, <strong class="self-author">Miao Pan</strong>, Yi Pan, Xu Wang, Wenqi Zhang, and Xuhong Zhang.<br>
-  *arXiv 2026.* [[Paper]](https://arxiv.org/abs/2610.21306) [[Project]](https://zju-omniai.github.io/VLA-Delta/) [[Code]](https://github.com/ZJU-OmniAI/VLA-Delta) [[Model]](https://huggingface.co/t0rn0d0) [[Daily Paper]](https://huggingface.co/papers/2610.21306)
-
 - **VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon.**<br>
   Yi Pan, <strong class="self-author">Miao Pan</strong>, Qi Lu, Jiaming Huang, Man Zhang, Siteng Huang, Xin Li, Jie Zhang, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang.<br>
   *NeurIPS 2026.* [[Paper]](https://arxiv.org/abs/2607.01804) [[Project]](https://zju-omniai.github.io/vla-corrector/) [[Code]](https://github.com/ZJU-OmniAI/vla-corrector)
@@ -10,17 +6,21 @@
   Yingxuan Zhuang, Jingxiao Yang, <strong class="self-author">Miao Pan</strong>, Cheng Tan, Yuxiang Cai, Siwei Tan, Chen Zhi, Xuhong Zhang, Jianwei Yin, and Jintao Chen.<br>
   *ICML 2026.* [[Paper]](https://arxiv.org/abs/2606.09859)
 
-- **VERIRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning.**<br>
-  Fu Teng<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Xuhong Zhang, Zhezhi He, Yiyao Yang, Xinyi Chai, Mengnan Qi, Liqiang Lu, and Jianwei Yin.<br>
-  *ICCAD 2025.* [[Paper]](https://arxiv.org/pdf/2508.18462) [[Presentation]](static/assets/presentations/iccad-2025-presentation.pptx) [[Code]](https://github.com/omniAI-Lab/VeriRL)
+- **GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification.**<br>
+  Wangjie Gan<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Linbo Xi<sup aria-label="equal contribution">&#42;</sup>, Wenqi Zhang, Jintao Chen, Jianwei Yin, and Xuhong Zhang.<br>
+  *ACL Findings 2026.* [[Paper]](https://arxiv.org/pdf/2604.14258) [[Code]](https://arxiv.org/pdf/2604.14258)
+
+- **Regret-Optimal and Stability-Enhanced Online Sampling of the Wiener Process for Remote Estimation over an Unreliable Channel with Unknown Statistics.**<br>
+  <strong class="self-author">Miao Pan</strong>, Haoyue Tang, Jiayu Pan, Tie Qiu, and Jianwei Yin.<br>
+  *INFOCOM 2026.* [[Paper]](https://www.researchgate.net/publication/408227931_Regret-Optimal_and_Stability-Enhanced_Online_Sampling_of_the_Wiener_Process_for_Remote_Estimation_over_an_Unreliable_Channel_with_Unknown_Statistics) [[Presentation]](static/assets/presentations/infocom-wiener-presentation.pptx)
+
+- **Sampling the Ornstein Uhlenbeck Process for Remote Estimation over an Unreliable Channel.**<br>
+  <strong class="self-author">Miao Pan</strong>, Jiayu Pan, Rui Chai, Xuhong Zhang, and Jianwei Yin.<br>
+  *INFOCOM 2026.* [[Paper]](https://www.researchgate.net/publication/408235259_Sampling_the_Ornstein_Uhlenbeck_Process_for_Remote_Estimation_over_an_Unreliable_Channel) [[Presentation]](static/assets/presentations/infocom-ou-presentation.pptx)
 
 - **Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization.**<br>
   <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Wangjie Gan<sup aria-label="equal contribution">&#42;</sup>, Jintao Chen, Wenqi Zhang, Bing Sun, Jianwei Yin, and Xuhong Zhang.<br>
   *AAAI 2026.* [[Paper]](https://arxiv.org/abs/2601.06224) [[Code]](https://github.com/omniAI-Lab/Ground-What-You-See)
-
-- **GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification.**<br>
-  Wangjie Gan<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Linbo Xi<sup aria-label="equal contribution">&#42;</sup>, Wenqi Zhang, Jintao Chen, Jianwei Yin, and Xuhong Zhang.<br>
-  *ACL Findings 2026.* [[Paper]](https://arxiv.org/pdf/2604.14258) [[Code]](https://arxiv.org/pdf/2604.14258)
 
 - **RAGFort: Dual-Path Defense Against Proprietary Knowledge Base Extraction in Retrieval-Augmented Generation.**<br>
   Qinfeng Li<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Ke Xiong<sup aria-label="equal contribution">&#42;</sup>, Ge Su, Zhiqiang Shen, Yan Liu, Bing Sun, Hao Peng, and Xuhong Zhang.<br>
@@ -30,13 +30,13 @@
   Qinfeng Li<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Jintao Chen, Fu Teng, Zhiqiang Shen, Ge Su, Hao Peng, and Xuhong Zhang.<br>
   *AAAI 2026.* [[Paper]](https://arxiv.org/pdf/2511.10712)
 
-- **Regret-Optimal and Stability-Enhanced Online Sampling of the Wiener Process for Remote Estimation over an Unreliable Channel with Unknown Statistics.**<br>
-  <strong class="self-author">Miao Pan</strong>, Haoyue Tang, Jiayu Pan, Tie Qiu, and Jianwei Yin.<br>
-  *INFOCOM 2026.* [[Paper]](https://www.researchgate.net/publication/408227931_Regret-Optimal_and_Stability-Enhanced_Online_Sampling_of_the_Wiener_Process_for_Remote_Estimation_over_an_Unreliable_Channel_with_Unknown_Statistics) [[Presentation]](static/assets/presentations/infocom-wiener-presentation.pptx)
+- **VERIRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning.**<br>
+  Fu Teng<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Xuhong Zhang, Zhezhi He, Yiyao Yang, Xinyi Chai, Mengnan Qi, Liqiang Lu, and Jianwei Yin.<br>
+  *ICCAD 2025.* [[Paper]](https://arxiv.org/pdf/2508.18462) [[Presentation]](static/assets/presentations/iccad-2025-presentation.pptx) [[Code]](https://github.com/omniAI-Lab/VeriRL)
 
-- **Sampling the Ornstein Uhlenbeck Process for Remote Estimation over an Unreliable Channel.**<br>
-  <strong class="self-author">Miao Pan</strong>, Jiayu Pan, Rui Chai, Xuhong Zhang, and Jianwei Yin.<br>
-  *INFOCOM 2026.* [[Paper]](https://www.researchgate.net/publication/408235259_Sampling_the_Ornstein_Uhlenbeck_Process_for_Remote_Estimation_over_an_Unreliable_Channel) [[Presentation]](static/assets/presentations/infocom-ou-presentation.pptx)
+- **VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models.**<br>
+  Qi Lu, Jiarun Li, Ce Zhang, <strong class="self-author">Miao Pan</strong>, Yi Pan, Xu Wang, Wenqi Zhang, and Xuhong Zhang.<br>
+  [[Paper]](https://arxiv.org/abs/2610.21306) [[Project]](https://zju-omniai.github.io/VLA-Delta/) [[Code]](https://github.com/ZJU-OmniAI/VLA-Delta) [[Model]](https://huggingface.co/t0rn0d0) [[Daily Paper]](https://huggingface.co/papers/2610.21306)
 
 - **Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation.**<br>
   Hongyan Feng, Sunlai Chen, Xuanyu Liu, <strong class="self-author">Miao Pan</strong>, Yangfan Xie, Yuxiang Cui, Zhongxiang Zhou, Rong Xiong, Wenqi Zhang, Jianwei Yin, Yueting Zhuang, and Xuhong Zhang.<br>

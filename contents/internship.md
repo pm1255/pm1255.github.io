@@ -2,7 +2,7 @@
   <h3 class="cv-subheading">Education</h3>
   <div class="cv-list" aria-label="Education">
     <article class="cv-entry">
-      <div class="cv-mark cv-mark-zju" aria-hidden="true">ZJU</div>
+      <a class="cv-mark cv-mark-zju" href="https://www.zju.edu.cn/" aria-label="Zhejiang University"><img src="static/assets/img/zju.svg" alt="Zhejiang University" width="240" height="96" loading="lazy"></a>
       <div class="cv-body">
         <h4><a href="https://www.zju.edu.cn/">Zhejiang University</a></h4>
         <p class="cv-role">Ph.D. student in Software Engineering</p>
@@ -12,7 +12,7 @@
     </article>
 
     <article class="cv-entry">
-      <div class="cv-mark cv-mark-zjsu" aria-hidden="true">ZJSU</div>
+      <a class="cv-mark cv-mark-zjsu" href="https://www.zjsu.edu.cn/" aria-label="Zhejiang Gongshang University"><img src="static/assets/img/zjsu.svg" alt="Zhejiang Gongshang University" width="240" height="96" loading="lazy"></a>
       <div class="cv-body">
         <h4><a href="https://www.zjsu.edu.cn/">Zhejiang Gongshang University</a></h4>
         <p class="cv-role">B.E. in Data Science and Big Data Technology</p>
@@ -24,11 +24,11 @@
   <h3 class="cv-subheading">Research Experience</h3>
   <div class="cv-list" aria-label="Research experience">
     <article class="cv-entry">
-      <a class="cv-mark cv-mark-modelbest" href="https://modelbest.cn/" aria-label="ModelBest (面壁智能)">
-        <img src="static/assets/img/modelbest.svg" alt="ModelBest (面壁智能)" width="194" height="48" loading="lazy">
+      <a class="cv-mark cv-mark-modelbest" href="https://modelbest.cn/" aria-label="modelbest">
+        <img src="static/assets/img/modelbest.svg" alt="modelbest" width="194" height="48" loading="lazy">
       </a>
       <div class="cv-body">
-        <h4><a href="https://modelbest.cn/">ModelBest (面壁智能)</a></h4>
+        <h4><a href="https://modelbest.cn/">modelbest</a></h4>
         <p class="cv-role">Algorithm Research Intern</p>
         <p class="cv-detail">Embodied AI data closed-loop algorithms.</p>
       </div>

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 96" role="img" aria-labelledby="title desc">
+  <title id="title">Zhejiang University</title>
+  <desc id="desc">A blue Zhejiang University style seal and wordmark.</desc>
+  <rect width="240" height="96" rx="12" fill="#f7fbff"/>
+  <circle cx="48" cy="48" r="31" fill="#0c5b8f"/>
+  <circle cx="48" cy="48" r="25" fill="none" stroke="#fff" stroke-width="2" opacity=".9"/>
+  <path d="M31 37h34M33 45h30M36 53h24M39 61h18M42 29v38M54 29v38" stroke="#fff" stroke-width="2.2" stroke-linecap="round" opacity=".96"/>
+  <text x="91" y="43" fill="#0c5b8f" font-family="Georgia,serif" font-size="25" font-weight="700" letter-spacing="2">ZJU</text>
+  <text x="92" y="64" fill="#55748a" font-family="Arial,sans-serif" font-size="10" font-weight="700" letter-spacing="1.1">ZHEJIANG UNIVERSITY</text>
+</svg>

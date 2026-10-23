@@ -2037,3 +2037,63 @@ body::before {
         font-size: 2rem;
     }
 }
+
+/* Latest content pass: denser timelines, larger paper method previews, and institution marks. */
+.news-list li {
+    min-height: 3.45rem;
+    padding: .72rem 0;
+}
+
+.paper-stream li {
+    min-height: clamp(170px, 16vw, 240px);
+    padding: 1.05rem 0 1.1rem calc(22% + 1.35rem);
+}
+
+.paper-thumb {
+    top: 1.05rem;
+    width: min(calc(22% - 1rem), 240px);
+    height: auto;
+    aspect-ratio: 1 / 1;
+}
+
+.cv-mark {
+    overflow: hidden;
+    padding: .45rem;
+}
+
+.cv-mark img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    max-height: 62px;
+    object-fit: contain;
+}
+
+.cv-mark-zju,
+.cv-mark-zjsu {
+    padding: .42rem;
+}
+
+.cv-mark-modelbest {
+    padding: .7rem .5rem;
+}
+
+@media (max-width: 680px) {
+    .news-list li {
+        min-height: 0;
+        padding: .66rem 0;
+    }
+
+    .paper-stream li {
+        min-height: 0;
+        padding-top: 5.35rem;
+        padding-bottom: 1rem;
+    }
+
+    .paper-thumb {
+        top: .85rem;
+        width: 5.5rem;
+        height: 4.35rem;
+    }
+}

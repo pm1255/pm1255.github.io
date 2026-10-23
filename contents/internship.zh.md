@@ -2,7 +2,7 @@
   <h3 class="cv-subheading">教育经历</h3>
   <div class="cv-list" aria-label="教育经历">
     <article class="cv-entry">
-      <div class="cv-mark cv-mark-zju" aria-hidden="true">ZJU</div>
+      <a class="cv-mark cv-mark-zju" href="https://www.zju.edu.cn/" aria-label="浙江大学"><img src="static/assets/img/zju.svg" alt="浙江大学" width="240" height="96" loading="lazy"></a>
       <div class="cv-body">
         <h4><a href="https://www.zju.edu.cn/">浙江大学</a></h4>
         <p class="cv-role">软件工程专业博士研究生</p>
@@ -12,7 +12,7 @@
     </article>
 
     <article class="cv-entry">
-      <div class="cv-mark cv-mark-zjsu" aria-hidden="true">ZJSU</div>
+      <a class="cv-mark cv-mark-zjsu" href="https://www.zjsu.edu.cn/" aria-label="浙江工商大学"><img src="static/assets/img/zjsu.svg" alt="浙江工商大学" width="240" height="96" loading="lazy"></a>
       <div class="cv-body">
         <h4><a href="https://www.zjsu.edu.cn/">浙江工商大学</a></h4>
         <p class="cv-role">数据科学与大数据技术专业工学学士</p>
@@ -24,11 +24,11 @@
   <h3 class="cv-subheading">科研实习经历</h3>
   <div class="cv-list" aria-label="科研实习经历">
     <article class="cv-entry">
-      <a class="cv-mark cv-mark-modelbest" href="https://modelbest.cn/" aria-label="面壁智能（ModelBest）">
-        <img src="static/assets/img/modelbest.svg" alt="面壁智能（ModelBest）" width="194" height="48" loading="lazy">
+      <a class="cv-mark cv-mark-modelbest" href="https://modelbest.cn/" aria-label="面壁智能（modelbest）">
+        <img src="static/assets/img/modelbest.svg" alt="面壁智能（modelbest）" width="194" height="48" loading="lazy">
       </a>
       <div class="cv-body">
-        <h4><a href="https://modelbest.cn/">面壁智能（ModelBest）</a></h4>
+        <h4><a href="https://modelbest.cn/">面壁智能（modelbest）</a></h4>
         <p class="cv-role">算法实习生</p>
         <p class="cv-detail">具身智能数据闭环算法。</p>
       </div>
