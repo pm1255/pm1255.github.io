@@ -1,4 +1,4 @@
-<div class="cv-block">
+<div class="cv-block cv-block-education">
   <h3 class="cv-subheading">教育经历</h3>
   <div class="cv-list" aria-label="教育经历">
     <article class="cv-entry">
@@ -6,6 +6,7 @@
       <div class="cv-body">
         <h4><a href="https://www.zju.edu.cn/">浙江大学</a></h4>
         <p class="cv-role">软件工程专业博士研究生</p>
+        <p class="cv-detail">研究方向：具身智能体 Harness、通用具身模型与强化学习。</p>
         <p class="cv-detail">导师：<a href="https://person.zju.edu.cn/zhangxuhong">张旭鸿教授</a>、<a href="https://person.zju.edu.cn/wenqizhang">张文祺教授</a>；此前曾受<a href="https://jiayupan26.github.io/">潘家雨教授</a>指导。</p>
       </div>
       <p class="cv-date">2023 – 2028</p>
@@ -19,7 +20,9 @@
       <p class="cv-date">2019 – 2023</p>
     </article>
   </div>
+</div>
 
+<div class="cv-block cv-block-experience">
   <h3 class="cv-subheading">科研实习经历</h3>
   <div class="cv-list" aria-label="科研实习经历">
     <article class="cv-entry">
@@ -29,7 +32,7 @@
       <div class="cv-body">
         <h4><a href="https://modelbest.cn/">面壁智能（Modelbest）</a></h4>
         <p class="cv-role">算法实习生</p>
-        <p class="cv-detail">具身智能数据闭环算法。</p>
+        <p class="cv-detail">具身智能数据闭环算法，连接数据整理与可靠的机器人学习。</p>
       </div>
       <p class="cv-date">2026 年 9 月至今</p>
     </article>
