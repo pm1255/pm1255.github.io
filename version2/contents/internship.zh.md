@@ -10,7 +10,6 @@
       </div>
       <p class="cv-date">2023 – 2028</p>
     </article>
-
     <article class="cv-entry">
       <a class="cv-mark cv-mark-zjsu" href="https://www.zjsu.edu.cn/" aria-label="浙江工商大学"><img src="static/assets/img/zjsu.svg" alt="浙江工商大学" width="240" height="96" loading="lazy"></a>
       <div class="cv-body">
