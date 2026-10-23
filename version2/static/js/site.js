@@ -198,6 +198,7 @@ function decorateActionLinks(root) {
 
         let type = null
         if (label.startsWith('paper')) type = 'paper'
+        else if (label.startsWith('presentation')) type = 'presentation'
         else if (label.startsWith('project')) type = 'project'
         else if (label.startsWith('code')) type = 'code'
         else if (label.startsWith('model')) type = 'model'

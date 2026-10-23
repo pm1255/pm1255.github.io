@@ -8,7 +8,7 @@
 
 - **VERIRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning.**<br>
   Fu Teng<sup aria-label="equal contribution">&#42;</sup>, Miao Pan<sup aria-label="equal contribution">&#42;</sup>, Xuhong Zhang, Zhezhi He, Yiyao Yang, Xinyi Chai, Mengnan Qi, Liqiang Lu, and Jianwei Yin.<br>
-  *ICCAD 2025.* [[Paper]](https://arxiv.org/pdf/2508.18462) [[Code]](https://github.com/omniAI-Lab/VeriRL)
+  *ICCAD 2025.* [[Paper]](https://arxiv.org/pdf/2508.18462) [[Presentation]](static/assets/presentations/iccad-2025-presentation.pptx) [[Code]](https://github.com/omniAI-Lab/VeriRL)
 
 - **Ground What You See: Hallucination-Resistant MLLMs via Caption Feedback, Diversity-Aware Sampling, and Conflict Regularization.**<br>
   Miao Pan<sup aria-label="equal contribution">&#42;</sup>, Wangjie Gan<sup aria-label="equal contribution">&#42;</sup>, Jintao Chen, Wenqi Zhang, Bing Sun, Jianwei Yin, and Xuhong Zhang.<br>
@@ -28,11 +28,11 @@
 
 - **Regret-Optimal and Stability-Enhanced Online Sampling of the Wiener Process for Remote Estimation over an Unreliable Channel with Unknown Statistics.**<br>
   Miao Pan, Haoyue Tang, Jiayu Pan, Tie Qiu, and Jianwei Yin.<br>
-  *INFOCOM 2026.* [[Paper]](https://www.researchgate.net/publication/408227931_Regret-Optimal_and_Stability-Enhanced_Online_Sampling_of_the_Wiener_Process_for_Remote_Estimation_over_an_Unreliable_Channel_with_Unknown_Statistics)
+  *INFOCOM 2026.* [[Paper]](https://www.researchgate.net/publication/408227931_Regret-Optimal_and_Stability-Enhanced_Online_Sampling_of_the_Wiener_Process_for_Remote_Estimation_over_an_Unreliable_Channel_with_Unknown_Statistics) [[Presentation]](static/assets/presentations/infocom-wiener-presentation.pptx)
 
 - **Sampling the Ornstein Uhlenbeck Process for Remote Estimation over an Unreliable Channel.**<br>
   Miao Pan, Jiayu Pan, Rui Chai, Xuhong Zhang, and Jianwei Yin.<br>
-  *INFOCOM 2026.* [[Paper]](https://www.researchgate.net/publication/408235259_Sampling_the_Ornstein_Uhlenbeck_Process_for_Remote_Estimation_over_an_Unreliable_Channel)
+  *INFOCOM 2026.* [[Paper]](https://www.researchgate.net/publication/408235259_Sampling_the_Ornstein_Uhlenbeck_Process_for_Remote_Estimation_over_an_Unreliable_Channel) [[Presentation]](static/assets/presentations/infocom-ou-presentation.pptx)
 
 - **Embodied-Navigator: Point, Think, Memorize, and Align for Efficient Navigation.**<br>
   Hongyan Feng, Sunlai Chen, Xuanyu Liu, Miao Pan, Yangfan Xie, Yuxiang Cui, Zhongxiang Zhou, Rong Xiong, Wenqi Zhang, Jianwei Yin, Yueting Zhuang, and Xuhong Zhang.<br>
