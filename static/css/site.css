@@ -2097,3 +2097,19 @@ body::before {
         height: 4.35rem;
     }
 }
+
+
+/* Align presentation and paper visuals with the title line and use official school marks. */
+.paper-thumb img {
+    object-position: top center;
+}
+
+.cv-mark-zju {
+    background: #fff;
+}
+
+.cv-mark-zjsu {
+    color: #fff;
+    border-color: #173b60;
+    background: #173b60;
+}
