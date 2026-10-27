@@ -2958,12 +2958,13 @@ html[data-theme="dark"] .paper-stream li em {
 .paper-stream li > strong,
 .paper-stream li > .paper-title-link,
 .paper-stream li > .paper-title-link strong,
+.paper-stream li > p > strong:first-child,
 .paper-stream li > p > .paper-title-link,
 .paper-stream li > p > .paper-title-link strong,
 .paper-stream li .paper-title-link {
     color: #111016 !important;
     font-family: Newsreader, Georgia, serif;
-    font-size: clamp(1.14rem, 1.5vw, 1.42rem);
+    font-size: clamp(1.14rem, 1.5vw, 1.42rem) !important;
     font-weight: 600;
     line-height: 1.2;
 }
@@ -2983,6 +2984,7 @@ html[data-theme="dark"] .paper-stream li em {
 html[data-theme="dark"] .paper-stream li > strong,
 html[data-theme="dark"] .paper-stream li > .paper-title-link,
 html[data-theme="dark"] .paper-stream li > .paper-title-link strong,
+html[data-theme="dark"] .paper-stream li > p > strong:first-child,
 html[data-theme="dark"] .paper-stream li > p > .paper-title-link,
 html[data-theme="dark"] .paper-stream li > p > .paper-title-link strong,
 html[data-theme="dark"] .paper-stream li .paper-title-link {
@@ -3019,3 +3021,4 @@ html[data-theme="dark"] .paper-stream .self-author {
     line-height: 0;
     vertical-align: super;
 }
+
