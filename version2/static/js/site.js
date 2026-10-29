@@ -1,5 +1,5 @@
 const contentDir = 'contents/'
-const contentVersion = 'cv20261027a'
+const contentVersion = 'cv20261029a'
 const sectionNames = ['home', 'papers', 'internship', 'awards']
 const localizedSections = new Set(['home', 'internship', 'awards'])
 const supportedLanguages = new Set(['en', 'zh'])
@@ -132,7 +132,7 @@ const copy = {
 const paperCategoryRules = [
     { key: 'networks', matches: ['regret-optimal', 'sampling the ornstein', 'fractional reinforcement'] },
     { key: 'trust', matches: ['ragfort', 'do not merge'] },
-    { key: 'agents', matches: ['mitigating manifold', 'gft:', 'ground what you see', 'verirl', 'sare:', 'spatial-interactor', 'show,'] },
+    { key: 'agents', matches: ['dtca:', 'mitigating manifold', 'gft:', 'ground what you see', 'verirl', 'sare:', 'spatial-interactor', 'show,'] },
     { key: 'embodied', matches: ['vla-corrector', 'vla-δ', 'embodied-navigator', 'rubrics4vla', 'embodiedmemory', 'scene-designer', 'stabilizing rl'] },
 ]
 

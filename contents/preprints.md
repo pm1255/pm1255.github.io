@@ -21,6 +21,10 @@
 
 #### Multimodal Agents & RL
 
+- **DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models.**<br>
+  Hongze Chen, <strong class="self-author">Miao Pan</strong>, Lizhou Liang, Qinfeng Li, Xinyin Ma, Yongliang Shen, Weishi Wang, Daniel Dahlmeier, Xuhong Zhang, and Wenqi Zhang.<br>
+  [[Paper]](https://arxiv.org/abs/2610.35201) [[Project]](https://zju-omniai.github.io/DTCA/) [[Code]](https://github.com/ZJU-OmniAI/DTCA)
+
 - **SARE: Sample-wise Adaptive Reasoning for Fine-grained Visual Recognition.**<br>
   Jingxiao Yang<sup aria-label="equal contribution">&#42;</sup>, DaLin He<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong>, Ge Su, Yifeng Hu, Tangwei Li, Yuke Li, Wenqi Zhang, and Xuhong Zhang.<br>
   [[Paper]](https://arxiv.org/abs/2603.17729)
