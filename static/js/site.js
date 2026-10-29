@@ -1,5 +1,5 @@
 const contentDir = 'contents/'
-const contentVersion = 'cv20261029a'
+const contentVersion = 'cv20261029b'
 const sectionNames = ['home', 'papers', 'internship', 'awards']
 const localizedSections = new Set(['home', 'internship', 'awards'])
 const supportedLanguages = new Set(['en', 'zh'])
@@ -40,6 +40,7 @@ const copy = {
         'date-11': 'Nov 8, 2025',
         'date-12': 'Oct 29, 2025',
         'date-13': 'Jun 30, 2025',
+        'date-14': 'Oct 26, 2026',
         'update-1': 'is now online with its project page, code, and model resources.',
         'update-2': 'was accepted to NeurIPS 2026.',
         'update-3': 'was presented orally at INFOCOM 2026 in Tokyo, Japan.',
@@ -53,6 +54,7 @@ const copy = {
         'update-11': 'was accepted to AAAI 2026.',
         'update-12': 'was presented orally in Room Barcelona at ICCAD 2025 in Munich, Germany.',
         'update-13': 'was accepted to ICCAD 2025.',
+        'update-14': 'is now available with its paper, project page, and code.',
         'kicker-publications': 'Research',
         'publications-title': 'Papers',
         'paper-filter-bar': 'Paper topics',
@@ -99,6 +101,7 @@ const copy = {
         'date-11': '2025 年 11 月 8 日',
         'date-12': '2025 年 10 月 29 日',
         'date-13': '2025 年 6 月 30 日',
+        'date-14': '2026 年 10 月 26 日',
         'update-1': '已上线，项目主页、代码和模型资源同步公开。',
         'update-2': '已被 NeurIPS 2026 录用。',
         'update-3': '于 2026 年在日本东京举行的 INFOCOM 2026 上作了口头报告。',
@@ -112,6 +115,7 @@ const copy = {
         'update-11': '已被 AAAI 2026 录用。',
         'update-12': '在德国慕尼黑举行的 ICCAD 2025 上于 Barcelona 会议室作了口头报告。',
         'update-13': '已被 ICCAD 2025 录用。',
+        'update-14': '论文、项目主页和代码现已公开。',
         'kicker-publications': '研究',
         'publications-title': '论文',
         'paper-filter-bar': '论文领域',
