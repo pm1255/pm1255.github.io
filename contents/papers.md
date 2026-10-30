@@ -1,7 +1,3 @@
-- **DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models.**<br>
-  Hongze Chen, <strong class="self-author">Miao Pan</strong>, Lizhou Liang, Qinfeng Li, Xinyin Ma, Yongliang Shen, Weishi Wang, Daniel Dahlmeier, Xuhong Zhang, and Wenqi Zhang.<br>
-  [[Paper]](https://arxiv.org/abs/2610.35201) [[Project]](https://zju-omniai.github.io/DTCA/) [[Code]](https://github.com/ZJU-OmniAI/DTCA)
-
 - **VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon.**<br>
   Yi Pan, <strong class="self-author">Miao Pan</strong>, Qi Lu, Jiaming Huang, Man Zhang, Siteng Huang, Xin Li, Jie Zhang, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang.<br>
   *NeurIPS 2026.*<br> [[Paper]](https://arxiv.org/abs/2607.01804) [[Project]](https://zju-omniai.github.io/vla-corrector/) [[Code]](https://github.com/ZJU-OmniAI/vla-corrector)
@@ -37,6 +33,10 @@
 - **VERIRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning.**<br>
   Fu Teng<sup aria-label="equal contribution">&#42;</sup>, <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Xuhong Zhang, Zhezhi He, Yiyao Yang, Xinyi Chai, Mengnan Qi, Liqiang Lu, and Jianwei Yin.<br>
   *ICCAD 2025.*<br> [[Paper]](https://arxiv.org/pdf/2508.18462) [[Presentation]](static/assets/presentations/iccad-2025-presentation.pptx) [[Code]](https://github.com/omniAI-Lab/VeriRL)
+
+- **DTCA: Denoising Token Credit Assignment for Reinforcement Learning in Diffusion Language Models.**<br>
+  Hongze Chen, <strong class="self-author">Miao Pan</strong>, Lizhou Liang, Qinfeng Li, Xinyin Ma, Yongliang Shen, Weishi Wang, Daniel Dahlmeier, Xuhong Zhang, and Wenqi Zhang.<br>
+  [[Paper]](https://arxiv.org/abs/2610.35201) [[Project]](https://zju-omniai.github.io/DTCA/) [[Code]](https://github.com/ZJU-OmniAI/DTCA)
 
 - **VLA-Δ: Learning Physical State Transition for Vision-Language-Action Models.**<br>
   Qi Lu, Jiarun Li, Ce Zhang, <strong class="self-author">Miao Pan</strong>, Yi Pan, Xu Wang, Wenqi Zhang, and Xuhong Zhang.<br>
