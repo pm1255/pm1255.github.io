@@ -1,3 +1,4 @@
+
 const contentDir = 'contents/'
 const contentVersion = 'cv20261030a'
 const sectionNames = ['home', 'papers', 'internship', 'awards']
@@ -442,3 +443,6 @@ window.addEventListener('DOMContentLoaded', () => {
     })
 })
 
+
+
+paperCategoryRules.unshift key 'embodied' matches 'recover don’t just continue' 
