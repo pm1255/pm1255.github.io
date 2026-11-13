@@ -1,7 +1,3 @@
-- **Recover, Don’t Just Continue: Learning from Feedback for Physical Failure Understanding and Correction.**<br>
-  <strong class="self-author">Miao Pan</strong>, Kaixiang Yao, Xiaohe Zhou, Xu Wang, Qinfeng Li, Wenqi Zhang, and Xuhong Zhang.<br>
-  *arXiv preprint, 2026.*<br> [Paper](https://arxiv.org/abs/2611.15651) [Project](https://pm1255.github.io/embodied-corrector/) [Code](https://github.com/pm1255/embodied-corrector)
-
 - **VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon.**<br>
   Yi Pan, <strong class="self-author">Miao Pan</strong>, Qi Lu, Jiaming Huang, Man Zhang, Siteng Huang, Xin Li, Jie Zhang, Yongliang Shen, Xuhong Zhang, and Wenqi Zhang.<br>
   *NeurIPS 2026.*<br> [[Paper]](https://arxiv.org/abs/2607.01804) [[Project]](https://zju-omniai.github.io/vla-corrector/) [[Code]](https://github.com/ZJU-OmniAI/vla-corrector)
@@ -81,3 +77,8 @@
   <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Han Xu<sup aria-label="equal contribution">&#42;</sup>, Jiayu Pan, Songwei Zhang, and Tie Qiu.
 
 <p class="contribution-note">* Equal contribution.</p>
+
+
+- **Recover, Don’t Just Continue: Learning from Feedback for Physical Failure Understanding and Correction.**<br>
+  <strong class="self-author">Miao Pan</strong>, Kaixiang Yao, Xiaohe Zhou, Xu Wang, Qinfeng Li, Wenqi Zhang, and Xuhong Zhang.<br>
+  [[Paper]](https://arxiv.org/abs/2611.15651) [[Project]](https://pm1255.github.io/embodied-corrector/) [[Code]](https://github.com/pm1255/embodied-corrector)
