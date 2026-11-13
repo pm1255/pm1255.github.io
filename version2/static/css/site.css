@@ -3022,3 +3022,15 @@ html[data-theme="dark"] .paper-stream .self-author {
     vertical-align: super;
 }
 
+
+
+/* Keep highlighted first authors at author-line size. */
+.paper-stream li > strong.self-author {
+    display: inline;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: inherit;
+}
