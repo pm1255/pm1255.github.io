@@ -442,3 +442,6 @@ window.addEventListener('DOMContentLoaded', () => {
     })
 })
 
+
+
+paperCategoryRules.unshift({ key: 'embodied', matches: ['recover, don’t just continue'] })
