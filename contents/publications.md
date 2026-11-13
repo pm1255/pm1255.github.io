@@ -1,7 +1,7 @@
 #### Embodied Intelligence
 
 - **Recover, Don’t Just Continue: Learning from Feedback for Physical Failure Understanding and Correction.**<br>
-  <strong class="self-author">Miao Pan</strong>, Kaixiang Yao, Xiaohe Zhou, Xu Wang, Qinfeng Li, Wenqi Zhang, and Xuhong Zhang.<br>
+  <strong class="self-author">Miao Pan</strong><sup aria-label="equal contribution">&#42;</sup>, Kaixiang Yao<sup aria-label="equal contribution">&#42;</sup>, Xiaohe Zhou, Xu Wang, Qinfeng Li, Wenqi Zhang, and Xuhong Zhang.<br>
   [[Paper]](https://arxiv.org/abs/2611.15651) [[Project]](https://pm1255.github.io/embodied-corrector/) [[Code]](https://github.com/pm1255/embodied-corrector)
 
 - **VLA-Corrector: Lightweight Detect-and-Correct Inference for Adaptive Action Horizon.**<br>
